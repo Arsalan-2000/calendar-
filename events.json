@@ -1,0 +1,3133 @@
+[
+  {
+    "date": "01-01",
+    "year": 1801,
+    "title": "Discovery of Ceres",
+    "desc": "Giuseppe Piazzi discovered Ceres, the first asteroid to be identified, located between Mars and Jupiter.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "01-01",
+    "year": 1863,
+    "title": "Emancipation Proclamation",
+    "desc": "U.S. President Abraham Lincoln's Emancipation Proclamation took effect, declaring freedom for slaves in Confederate states.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "01-01",
+    "year": 1985,
+    "title": "Internet's first .com",
+    "desc": "Symbolics.com was registered, becoming the first commercial .com domain name on the internet.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "01-01",
+    "year": 1999,
+    "title": "Euro introduced",
+    "desc": "The euro was officially introduced as the single currency for 11 EU member states, initially in electronic form.",
+    "cat": "economy",
+    "type": "event"
+  },
+  {
+    "date": "01-01",
+    "year": 2002,
+    "title": "Euro notes & coins",
+    "desc": "Euro banknotes and coins entered circulation across 12 European countries, the largest cash changeover in history.",
+    "cat": "economy",
+    "type": "event"
+  },
+  {
+    "date": "01-03",
+    "year": 2009,
+    "title": "Bitcoin genesis block",
+    "desc": "Satoshi Nakamoto mined the Bitcoin genesis block (Block 0), launching the world's first decentralized cryptocurrency.",
+    "cat": "economy",
+    "type": "event"
+  },
+  {
+    "date": "01-04",
+    "year": 1809,
+    "title": "Birth of Louis Braille",
+    "desc": "Louis Braille, inventor of the Braille reading and writing system for the blind, was born in Coupvray, France.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "inventor"
+  },
+  {
+    "date": "01-05",
+    "year": 1933,
+    "title": "Construction of Golden Gate Bridge",
+    "desc": "Construction began on the Golden Gate Bridge in San Francisco, then the longest suspension bridge in the world.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "01-07",
+    "year": 1610,
+    "title": "Galileo discovers Jupiter's moons",
+    "desc": "Galileo Galilei observed Jupiter's four largest moons (Io, Europa, Ganymede, Callisto), proving not all bodies orbit Earth.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "01-07",
+    "year": 1785,
+    "title": "First channel crossing by air",
+    "desc": "French inventor Jean-Pierre Blanchard and American John Jeffries crossed the English Channel in a hydrogen balloon.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "01-07",
+    "year": 1927,
+    "title": "First transatlantic phone call",
+    "desc": "The first commercial transatlantic telephone call was made between New York and London via radio telephone.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "01-07",
+    "year": 1943,
+    "title": "Death of Nikola Tesla",
+    "desc": "Serbian-American inventor Nikola Tesla died in a New York hotel room, aged 86, penniless but legendary.",
+    "cat": "people",
+    "type": "death",
+    "pc": "inventor"
+  },
+  {
+    "date": "01-08",
+    "year": 1642,
+    "title": "Death of Galileo Galilei",
+    "desc": "Italian astronomer and physicist Galileo Galilei died in Arcetri, Italy, aged 77, after a lifetime of pioneering astronomical discoveries.",
+    "cat": "people",
+    "type": "death",
+    "pc": "scientist"
+  },
+  {
+    "date": "01-08",
+    "year": 1935,
+    "title": "Birth of Elvis Presley",
+    "desc": "Elvis Aaron Presley, the 'King of Rock and Roll', was born in Tupelo, Mississippi, USA.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "01-08",
+    "year": 1942,
+    "title": "Birth of Stephen Hawking",
+    "desc": "British theoretical physicist and cosmologist Stephen Hawking was born in Oxford, England.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "scientist"
+  },
+  {
+    "date": "01-09",
+    "year": 1324,
+    "title": "Death of Marco Polo",
+    "desc": "Venetian merchant and explorer Marco Polo, who traveled the Silk Road to China, died in Venice.",
+    "cat": "people",
+    "type": "death",
+    "pc": "explorer"
+  },
+  {
+    "date": "01-09",
+    "year": 2007,
+    "title": "Steve Jobs unveils iPhone",
+    "desc": "Apple CEO Steve Jobs unveiled the first iPhone at MacWorld in San Francisco, revolutionizing mobile phones forever.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "01-10",
+    "year": 1863,
+    "title": "First section of London Underground",
+    "desc": "The Metropolitan Railway, the world's first underground railway, opened in London between Paddington and Farringdon.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "01-10",
+    "year": 2016,
+    "title": "Death of David Bowie",
+    "desc": "British rock legend David Bowie died in New York two days after releasing his final album 'Blackstar'.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "01-11",
+    "year": 1842,
+    "title": "Birth of William James",
+    "desc": "American philosopher and psychologist William James, the 'Father of American psychology', was born in New York.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "psychologist"
+  },
+  {
+    "date": "01-11",
+    "year": 2012,
+    "title": "Death of Whitney Houston",
+    "desc": "American singer and actress Whitney Houston died in Beverly Hills, California, aged 48.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "01-12",
+    "year": 2010,
+    "title": "2010 Haiti earthquake",
+    "desc": "A catastrophic 7.0 magnitude earthquake struck Haiti, killing over 200,000 people and devastating the capital Port-au-Prince.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "01-14",
+    "year": 1784,
+    "title": "US ratifies Treaty of Paris",
+    "desc": "The United States Congress ratified the Treaty of Paris, officially ending the American Revolutionary War with Great Britain.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "01-15",
+    "year": 1559,
+    "title": "Coronation of Elizabeth I",
+    "desc": "Elizabeth I was crowned Queen of England in Westminster Abbey, beginning a 45-year reign known as the Elizabethan era.",
+    "cat": "people",
+    "type": "event",
+    "pc": "monarch"
+  },
+  {
+    "date": "01-15",
+    "year": 1929,
+    "title": "Birth of Martin Luther King Jr.",
+    "desc": "American civil rights leader Martin Luther King Jr. was born in Atlanta, Georgia.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "activist"
+  },
+  {
+    "date": "01-15",
+    "year": 2001,
+    "title": "Wikipedia launched",
+    "desc": "Jimmy Wales and Larry Sanger launched Wikipedia, the free online encyclopedia that anyone can edit.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "01-16",
+    "year": 1547,
+    "title": "Death of Ivan the Terrible",
+    "desc": "Ivan IV ('the Terrible'), the first Tsar of Russia, died in Moscow, ending a 37-year reign of terror and expansion.",
+    "cat": "people",
+    "type": "death",
+    "pc": "monarch"
+  },
+  {
+    "date": "01-16",
+    "year": 1960,
+    "title": "First operational laser",
+    "desc": "Theodore Maiman demonstrated the first working laser (a ruby laser) at Hughes Research Laboratories in California.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "01-17",
+    "year": 1893,
+    "title": "Overthrow of Hawaiian monarchy",
+    "desc": "U.S. Marines and American settlers overthrew Queen Liliuokalani of Hawaii, leading to eventual U.S. annexation.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "01-17",
+    "year": 1994,
+    "title": "Northridge earthquake",
+    "desc": "A 6.7 earthquake struck the San Fernando Valley near Los Angeles, killing 57 and causing $20B in damage.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "01-19",
+    "year": 1809,
+    "title": "Birth of Edgar Allan Poe",
+    "desc": "American writer and poet Edgar Allan Poe, master of the macabre, was born in Boston, Massachusetts.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "writer"
+  },
+  {
+    "date": "01-20",
+    "year": 1265,
+    "title": "First English Parliament",
+    "desc": "The first elected English Parliament, summoned by Simon de Montfort, convened in Westminster.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "01-20",
+    "year": 1930,
+    "title": "First FIFA World Cup match",
+    "desc": "The first-ever FIFA World Cup match was played in Montevideo, Uruguay, with France defeating Mexico 4-1.",
+    "cat": "sports",
+    "type": "event"
+  },
+  {
+    "date": "01-21",
+    "year": 1793,
+    "title": "Execution of Louis XVI",
+    "desc": "King Louis XVI of France was guillotined in Paris's Place de la Revolution, during the French Revolution.",
+    "cat": "people",
+    "type": "death",
+    "pc": "monarch"
+  },
+  {
+    "date": "01-22",
+    "year": 1901,
+    "title": "Death of Queen Victoria",
+    "desc": "Queen Victoria of the United Kingdom died at Osborne House after a 63-year reign, the longest in British history at that time.",
+    "cat": "people",
+    "type": "death",
+    "pc": "monarch"
+  },
+  {
+    "date": "01-22",
+    "year": 1905,
+    "title": "Bloody Sunday, Russia",
+    "desc": "Tsarist troops fired on a peaceful workers' procession in St. Petersburg, killing hundreds and sparking the 1905 Russian Revolution.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "01-23",
+    "year": 1556,
+    "title": "Shaanxi earthquake",
+    "desc": "The deadliest earthquake in recorded history struck Shaanxi, China, killing an estimated 830,000 people.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "01-24",
+    "year": 1848,
+    "title": "California Gold Rush",
+    "desc": "James W. Marshall discovered gold at Sutter's Mill in Coloma, California, sparking the California Gold Rush.",
+    "cat": "economy",
+    "type": "event"
+  },
+  {
+    "date": "01-25",
+    "year": 1759,
+    "title": "Birth of Robert Burns",
+    "desc": "Scottish poet Robert Burns, widely regarded as the national poet of Scotland, was born in Alloway.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "writer"
+  },
+  {
+    "date": "01-27",
+    "year": 1756,
+    "title": "Birth of Mozart",
+    "desc": "Austrian composer Wolfgang Amadeus Mozart, one of the greatest composers in history, was born in Salzburg.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "01-27",
+    "year": 1832,
+    "title": "Birth of Lewis Carroll",
+    "desc": "English writer and mathematician Lewis Carroll, author of 'Alice's Adventures in Wonderland', was born in Cheshire.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "writer"
+  },
+  {
+    "date": "01-28",
+    "year": 1813,
+    "title": "'Pride and Prejudice' published",
+    "desc": "Jane Austen's novel 'Pride and Prejudice' was published in the United Kingdom, becoming a literary classic.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "01-28",
+    "year": 1986,
+    "title": "Space Shuttle Challenger disaster",
+    "desc": "Space Shuttle Challenger broke apart 73 seconds after liftoff, killing all seven crew members including teacher Christa McAuliffe.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "01-30",
+    "year": 1948,
+    "title": "Death of Gandhi",
+    "desc": "Mahatma Gandhi, leader of India's independence movement, was assassinated in New Delhi by a Hindu nationalist.",
+    "cat": "people",
+    "type": "death",
+    "pc": "politician"
+  },
+  {
+    "date": "01-31",
+    "year": 1606,
+    "title": "Execution of Guy Fawkes",
+    "desc": "Guy Fawkes was executed in London for his role in the Gunpowder Plot to blow up Parliament in 1605.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "02-01",
+    "year": 2003,
+    "title": "Columbia disaster",
+    "desc": "Space Shuttle Columbia disintegrated during re-entry, killing all seven astronauts aboard, including Israel's first astronaut Ilan Ramon.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "02-03",
+    "year": 1959,
+    "title": "The Day the Music Died",
+    "desc": "Buddy Holly, Ritchie Valens, and J.P. 'The Big Bopper' Richardson died in a plane crash near Clear Lake, Iowa.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "02-04",
+    "year": 1974,
+    "title": "Patty Hearst kidnapped",
+    "desc": "Newspaper heiress Patty Hearst was kidnapped by the Symbionese Liberation Army in Berkeley, California.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "02-04",
+    "year": 2004,
+    "title": "Facebook founded",
+    "desc": "Mark Zuckerberg launched 'TheFacebook' from his Harvard dormitory, the beginning of the world's largest social network.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "02-05",
+    "year": 1985,
+    "title": "Birth of Cristiano Ronaldo",
+    "desc": "Portuguese football star Cristiano Ronaldo was born in Funchal, Madeira, Portugal.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "athlete"
+  },
+  {
+    "date": "02-06",
+    "year": 1952,
+    "title": "Death of King George VI",
+    "desc": "King George VI of the United Kingdom died, and his daughter Elizabeth II ascended to the throne.",
+    "cat": "people",
+    "type": "death",
+    "pc": "monarch"
+  },
+  {
+    "date": "02-06",
+    "year": 1958,
+    "title": "Munich air disaster",
+    "desc": "A plane carrying the Manchester United football team crashed in Munich, killing 23 people including eight players.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "02-07",
+    "year": 1812,
+    "title": "Birth of Charles Dickens",
+    "desc": "English novelist Charles Dickens, author of 'A Tale of Two Cities' and 'Oliver Twist', was born in Portsmouth, England.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "writer"
+  },
+  {
+    "date": "02-08",
+    "year": 1587,
+    "title": "Execution of Mary, Queen of Scots",
+    "desc": "Mary, Queen of Scots was executed at Fotheringhay Castle on orders of Queen Elizabeth I of England.",
+    "cat": "people",
+    "type": "death",
+    "pc": "monarch"
+  },
+  {
+    "date": "02-08",
+    "year": 1828,
+    "title": "Birth of Jules Verne",
+    "desc": "French novelist Jules Verne, pioneer of science fiction, was born in Nantes, France.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "writer"
+  },
+  {
+    "date": "02-09",
+    "year": 1900,
+    "title": "Davis Cup founded",
+    "desc": "The Davis Cup tennis tournament was established when the United States played Great Britain in Boston.",
+    "cat": "sports",
+    "type": "event"
+  },
+  {
+    "date": "02-10",
+    "year": 1996,
+    "title": "Deep Blue defeats Kasparov",
+    "desc": "IBM's chess computer Deep Blue became the first machine to win a chess game against a reigning world champion (Garry Kasparov).",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "02-11",
+    "year": 1847,
+    "title": "Birth of Thomas Edison",
+    "desc": "American inventor Thomas Alva Edison, holder of over 1,000 patents including the phonograph and practical light bulb, was born in Milan, Ohio.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "inventor"
+  },
+  {
+    "date": "02-11",
+    "year": 1929,
+    "title": "Lateran Treaty signed",
+    "desc": "The Lateran Treaty created the independent State of Vatican City, resolving the 'Roman Question' with Italy.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "02-11",
+    "year": 1990,
+    "title": "Mandela released",
+    "desc": "Nelson Mandela was released from Victor Verster Prison after 27 years, accelerating the end of apartheid.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "02-12",
+    "year": 1809,
+    "title": "Birth of Charles Darwin",
+    "desc": "English naturalist Charles Darwin, who developed the theory of evolution by natural selection, was born in Shrewsbury.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "scientist"
+  },
+  {
+    "date": "02-12",
+    "year": 1809,
+    "title": "Birth of Abraham Lincoln",
+    "desc": "Abraham Lincoln, the 16th President of the United States, was born in Hodgenville, Kentucky.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "politician"
+  },
+  {
+    "date": "02-12",
+    "year": 1947,
+    "title": "Discovery of transposons",
+    "desc": "Barbara McClintock discovered 'jumping genes' (transposons) in maize, later winning the Nobel Prize for the work.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "02-13",
+    "year": 1633,
+    "title": "Galileo on trial",
+    "desc": "Galileo Galilei arrived in Rome to face trial by the Inquisition for supporting the heliocentric model of the solar system.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "02-14",
+    "year": 1859,
+    "title": "Oregon becomes a state",
+    "desc": "Oregon was admitted as the 33rd state of the United States of America.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "02-14",
+    "year": 1876,
+    "title": "Bell patents telephone",
+    "desc": "Alexander Graham Bell filed the patent for the telephone, beating Elisha Gray's similar filing by only hours.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "02-14",
+    "year": 1929,
+    "title": "St. Valentine's Day Massacre",
+    "desc": "Seven members of Chicago's North Side Gang were murdered by Al Capone's men in a Prohibition-era gang hit.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "02-14",
+    "year": 2005,
+    "title": "YouTube launched",
+    "desc": "Steve Chen, Chad Hurley, and Jawed Karim registered youtube.com, which went on to become the world's largest video platform.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "02-15",
+    "year": 1564,
+    "title": "Birth of Galileo Galilei",
+    "desc": "Italian astronomer, physicist and 'father of modern science' Galileo Galilei was born in Pisa.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "scientist"
+  },
+  {
+    "date": "02-15",
+    "year": 1989,
+    "title": "Soviet withdrawal from Afghanistan",
+    "desc": "The Soviet Union officially completed its military withdrawal from Afghanistan after a 10-year war.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "02-16",
+    "year": 1923,
+    "title": "Opening of Tutankhamun's tomb",
+    "desc": "Howard Carter's team opened the sealed doorway to the burial chamber of Pharaoh Tutankhamun in Egypt's Valley of the Kings.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "02-17",
+    "year": 1600,
+    "title": "Giordano Bruno burned",
+    "desc": "Italian philosopher Giordano Bruno was burned at the stake in Rome for heresy, including his belief in an infinite universe.",
+    "cat": "people",
+    "type": "death",
+    "pc": "philosopher"
+  },
+  {
+    "date": "02-18",
+    "year": 1564,
+    "title": "Death of Michelangelo",
+    "desc": "Italian Renaissance sculptor and painter Michelangelo died in Rome, aged 88.",
+    "cat": "people",
+    "type": "death",
+    "pc": "artist"
+  },
+  {
+    "date": "02-19",
+    "year": 1473,
+    "title": "Birth of Copernicus",
+    "desc": "Polish astronomer Nicolaus Copernicus, who proposed the heliocentric model of the solar system, was born in Torun.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "scientist"
+  },
+  {
+    "date": "02-20",
+    "year": 1962,
+    "title": "First American orbits Earth",
+    "desc": "Astronaut John Glenn became the first American to orbit the Earth aboard Friendship 7, completing three orbits.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "02-21",
+    "year": 1965,
+    "title": "Assassination of Malcolm X",
+    "desc": "African-American activist Malcolm X was assassinated in New York City while preparing to address his organization.",
+    "cat": "people",
+    "type": "death",
+    "pc": "activist"
+  },
+  {
+    "date": "02-22",
+    "year": 1512,
+    "title": "Death of Amerigo Vespucci",
+    "desc": "Italian explorer Amerigo Vespucci, who gave his name to the Americas, died in Seville, Spain.",
+    "cat": "people",
+    "type": "death",
+    "pc": "explorer"
+  },
+  {
+    "date": "02-22",
+    "year": 1732,
+    "title": "Birth of George Washington",
+    "desc": "George Washington, the first President of the United States and commander of the Continental Army, was born in Virginia.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "politician"
+  },
+  {
+    "date": "02-23",
+    "year": 1455,
+    "title": "Gutenberg Bible printed",
+    "desc": "Johannes Gutenberg completed the first major book printed with movable type in Mainz, Germany, launching the printing revolution.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "02-24",
+    "year": 1955,
+    "title": "Birth of Steve Jobs",
+    "desc": "Apple co-founder Steve Jobs was born in San Francisco, California.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "entrepreneur"
+  },
+  {
+    "date": "02-25",
+    "year": 1836,
+    "title": "Colt revolver patented",
+    "desc": "American inventor Samuel Colt received a U.S. patent for his revolving-cylinder pistol, the first practical repeating firearm.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "02-26",
+    "year": 1936,
+    "title": "First Volkswagen Beetle",
+    "desc": "Adolf Hitler laid the foundation stone for the first Volkswagen factory, with Ferdinand Porsche designing the 'people's car'.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "02-28",
+    "year": 1953,
+    "title": "DNA double helix discovered",
+    "desc": "James Watson and Francis Crick announced their discovery of the double-helix structure of DNA at Cambridge.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "02-29",
+    "year": 1940,
+    "title": "Hattie McDaniel wins Oscar",
+    "desc": "Hattie McDaniel became the first African American to win an Academy Award for her role in 'Gone with the Wind'.",
+    "cat": "awards",
+    "type": "event"
+  },
+  {
+    "date": "03-01",
+    "year": 1809,
+    "title": "Birth of Chopin",
+    "desc": "Polish composer and piano virtuoso Frederic Chopin was born in Zelazowa Wola, Poland.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "03-02",
+    "year": 1969,
+    "title": "Concorde first flight",
+    "desc": "The Anglo-French supersonic airliner Concorde made its maiden flight from Toulouse, France.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "03-03",
+    "year": 1847,
+    "title": "Birth of Alexander Graham Bell",
+    "desc": "Scottish-born inventor Alexander Graham Bell, credited with inventing the first practical telephone, was born in Edinburgh.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "inventor"
+  },
+  {
+    "date": "03-05",
+    "year": 1616,
+    "title": "Copernican book banned",
+    "desc": "The Catholic Church placed Copernicus' 'De Revolutionibus' on its Index of Forbidden Books pending 'correction'.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "03-05",
+    "year": 1618,
+    "title": "Kepler's third law",
+    "desc": "Johannes Kepler discovered his third law of planetary motion, describing the relationship between orbital period and distance.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "03-05",
+    "year": 1818,
+    "title": "Birth of Karl Marx",
+    "desc": "German philosopher and economist Karl Marx, founder of modern communism, was born in Trier, Prussia.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "philosopher"
+  },
+  {
+    "date": "03-05",
+    "year": 1953,
+    "title": "Death of Stalin",
+    "desc": "Soviet leader Joseph Stalin died in Moscow, ending nearly 30 years of brutal rule over the Soviet Union.",
+    "cat": "people",
+    "type": "death",
+    "pc": "politician"
+  },
+  {
+    "date": "03-06",
+    "year": 1475,
+    "title": "Birth of Michelangelo",
+    "desc": "Italian Renaissance sculptor, painter, and architect Michelangelo Buonarroti was born in Caprese, Tuscany.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "artist"
+  },
+  {
+    "date": "03-07",
+    "year": 1875,
+    "title": "Birth of Ravel",
+    "desc": "French composer Maurice Ravel, known for 'Bolero', was born in Ciboure, France.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "03-07",
+    "year": 1876,
+    "title": "Bell patents telephone",
+    "desc": "Alexander Graham Bell was granted U.S. Patent 174,465 for the telephone, one of history's most valuable patents.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "03-09",
+    "year": 1454,
+    "title": "Birth of Amerigo Vespucci",
+    "desc": "Italian explorer Amerigo Vespucci, from whose name 'America' is derived, was born in Florence.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "explorer"
+  },
+  {
+    "date": "03-10",
+    "year": 1876,
+    "title": "First telephone call",
+    "desc": "Alexander Graham Bell made the first successful telephone call to his assistant: 'Mr. Watson, come here, I want to see you.'",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "03-11",
+    "year": 2011,
+    "title": "Tohoku earthquake & tsunami",
+    "desc": "A magnitude 9.0 earthquake struck Japan, triggering a massive tsunami that killed over 18,000 people and caused the Fukushima nuclear disaster.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "03-12",
+    "year": 1994,
+    "title": "First female priest ordained",
+    "desc": "The Church of England ordained its first 32 female priests at Bristol Cathedral, ending centuries of male-only priesthood.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "03-13",
+    "year": 1781,
+    "title": "Discovery of Uranus",
+    "desc": "William Herschel discovered the planet Uranus, the first planet discovered with a telescope and the first new planet since antiquity.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "03-14",
+    "year": 1879,
+    "title": "Birth of Albert Einstein",
+    "desc": "German-born physicist Albert Einstein, who developed the theory of relativity, was born in Ulm, Germany.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "scientist"
+  },
+  {
+    "date": "03-14",
+    "year": 1883,
+    "title": "Death of Karl Marx",
+    "desc": "German philosopher and economist Karl Marx, author of 'Das Kapital' and co-author of the 'Communist Manifesto', died in London.",
+    "cat": "people",
+    "type": "death",
+    "pc": "philosopher"
+  },
+  {
+    "date": "03-14",
+    "year": 2018,
+    "title": "Death of Stephen Hawking",
+    "desc": "British theoretical physicist Stephen Hawking died at his home in Cambridge, aged 76, exactly 139 years after Einstein's birth.",
+    "cat": "people",
+    "type": "death",
+    "pc": "scientist"
+  },
+  {
+    "date": "03-15",
+    "year": 44,
+    "title": "Assassination of Julius Caesar",
+    "desc": "Roman dictator Julius Caesar was stabbed to death by senators led by Brutus and Cassius on the Ides of March.",
+    "cat": "people",
+    "type": "death",
+    "pc": "politician"
+  },
+  {
+    "date": "03-16",
+    "year": 1926,
+    "title": "First liquid-fuel rocket",
+    "desc": "American physicist Robert Goddard launched the world's first liquid-fueled rocket in Auburn, Massachusetts.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "03-18",
+    "year": 1965,
+    "title": "First spacewalk",
+    "desc": "Soviet cosmonaut Alexei Leonov became the first person to walk in space, leaving his Voskhod 2 capsule for 12 minutes.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "03-20",
+    "year": 1727,
+    "title": "Death of Isaac Newton",
+    "desc": "English mathematician and physicist Sir Isaac Newton, who formulated the laws of motion and universal gravitation, died in London.",
+    "cat": "people",
+    "type": "death",
+    "pc": "scientist"
+  },
+  {
+    "date": "03-21",
+    "year": 1960,
+    "title": "Sharpeville massacre",
+    "desc": "South African police killed 69 peaceful anti-apartheid protesters in Sharpeville, drawing global condemnation.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "03-22",
+    "year": 1895,
+    "title": "First movie projected",
+    "desc": "Auguste and Louis Lumiere gave the first public film screening in Paris, marking the birth of cinema.",
+    "cat": "entertainment",
+    "type": "event"
+  },
+  {
+    "date": "03-24",
+    "year": 1989,
+    "title": "Exxon Valdez oil spill",
+    "desc": "The tanker Exxon Valdez struck a reef in Alaska's Prince William Sound, spilling 11 million gallons of crude oil.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "03-25",
+    "year": 1957,
+    "title": "Treaty of Rome signed",
+    "desc": "The Treaty establishing the European Economic Community was signed in Rome by six nations, the foundation of today's European Union.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "03-26",
+    "year": 1827,
+    "title": "Death of Beethoven",
+    "desc": "German composer Ludwig van Beethoven died in Vienna, aged 56, having completed his Ninth Symphony while completely deaf.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "03-27",
+    "year": 1968,
+    "title": "Death of Yuri Gagarin",
+    "desc": "Soviet cosmonaut Yuri Gagarin, the first human in space, died in a MiG-15 fighter jet crash near Moscow, aged 34.",
+    "cat": "people",
+    "type": "death",
+    "pc": "astronaut"
+  },
+  {
+    "date": "03-28",
+    "year": 1979,
+    "title": "Three Mile Island accident",
+    "desc": "A partial nuclear meltdown occurred at the Three Mile Island Nuclear Generating Station in Pennsylvania, the worst U.S. nuclear accident.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "03-30",
+    "year": 1853,
+    "title": "Birth of Vincent van Gogh",
+    "desc": "Dutch post-impressionist painter Vincent van Gogh, whose work had enormous influence on 20th-century art, was born in Zundert.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "artist"
+  },
+  {
+    "date": "03-31",
+    "year": 1855,
+    "title": "Death of Charlotte Bronte",
+    "desc": "English novelist Charlotte Bronte, author of 'Jane Eyre', died in Haworth, Yorkshire, aged 38, during pregnancy.",
+    "cat": "people",
+    "type": "death",
+    "pc": "writer"
+  },
+  {
+    "date": "03-31",
+    "year": 1889,
+    "title": "Eiffel Tower inaugurated",
+    "desc": "The Eiffel Tower was officially inaugurated in Paris during the World's Fair celebrating the French Revolution centennial.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "04-01",
+    "year": 1976,
+    "title": "Apple founded",
+    "desc": "Steve Jobs, Steve Wozniak, and Ronald Wayne founded Apple Computer Company in Cupertino, California.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "04-02",
+    "year": 2005,
+    "title": "Death of Pope John Paul II",
+    "desc": "Pope John Paul II died at age 84 after a 26-year papacy, the second-longest in modern history.",
+    "cat": "people",
+    "type": "death",
+    "pc": "religious"
+  },
+  {
+    "date": "04-03",
+    "year": 1973,
+    "title": "First mobile phone call",
+    "desc": "Motorola's Martin Cooper made the first handheld cellular phone call on a New York City street.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "04-04",
+    "year": 1968,
+    "title": "Assassination of MLK",
+    "desc": "Civil rights leader Martin Luther King Jr. was assassinated on the balcony of the Lorraine Motel in Memphis, Tennessee.",
+    "cat": "people",
+    "type": "death",
+    "pc": "activist"
+  },
+  {
+    "date": "04-05",
+    "year": 1994,
+    "title": "Death of Kurt Cobain",
+    "desc": "Nirvana frontman Kurt Cobain was found dead in his Seattle home from a self-inflicted gunshot wound.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "04-06",
+    "year": 1896,
+    "title": "First modern Olympics",
+    "desc": "The first modern Olympic Games opened in Athens, Greece, with 280 athletes from 13 nations competing.",
+    "cat": "sports",
+    "type": "event"
+  },
+  {
+    "date": "04-06",
+    "year": 1909,
+    "title": "North Pole claimed",
+    "desc": "American explorer Robert Peary claimed to have reached the North Pole, though the claim remains disputed.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "04-07",
+    "year": 1948,
+    "title": "WHO founded",
+    "desc": "The World Health Organization was established as a specialized agency of the United Nations.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "04-08",
+    "year": 1973,
+    "title": "Death of Picasso",
+    "desc": "Spanish painter Pablo Picasso died in Mougins, France, aged 91.",
+    "cat": "people",
+    "type": "death",
+    "pc": "artist"
+  },
+  {
+    "date": "04-09",
+    "year": 1865,
+    "title": "Lee surrenders at Appomattox",
+    "desc": "Confederate General Robert E. Lee surrendered to Union General Ulysses S. Grant, effectively ending the American Civil War.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "04-10",
+    "year": 1815,
+    "title": "Eruption of Tambora",
+    "desc": "Mount Tambora in Indonesia began one of the most powerful volcanic eruptions in recorded history, killing over 70,000 people.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "04-10",
+    "year": 1912,
+    "title": "Titanic sets sail",
+    "desc": "The RMS Titanic departed Southampton on its maiden voyage, which would end in disaster five days later.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "04-12",
+    "year": 1961,
+    "title": "First human in space",
+    "desc": "Soviet cosmonaut Yuri Gagarin became the first human to orbit the Earth aboard Vostok 1, lasting 108 minutes.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "04-12",
+    "year": 1981,
+    "title": "First Space Shuttle launch",
+    "desc": "Space Shuttle Columbia launched on STS-1, the first flight of the Space Shuttle program, with John Young and Robert Crippen.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "04-13",
+    "year": 1970,
+    "title": "Apollo 13 oxygen tank",
+    "desc": "An oxygen tank exploded aboard Apollo 13, aborting the Moon mission and forcing a dramatic rescue around the Moon.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "04-14",
+    "year": 1865,
+    "title": "Lincoln assassinated",
+    "desc": "U.S. President Abraham Lincoln was shot by John Wilkes Booth at Ford's Theatre in Washington, D.C.; he died the next morning.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "04-15",
+    "year": 1452,
+    "title": "Birth of Leonardo da Vinci",
+    "desc": "Italian Renaissance polymath Leonardo da Vinci, painter of the Mona Lisa, was born in Vinci, Tuscany.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "artist"
+  },
+  {
+    "date": "04-15",
+    "year": 1912,
+    "title": "Titanic sinks",
+    "desc": "The RMS Titanic sank in the North Atlantic after striking an iceberg, killing over 1,500 of the 2,200 people aboard.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "04-15",
+    "year": 1947,
+    "title": "Jackie Robinson breaks color barrier",
+    "desc": "Jackie Robinson became the first African-American player in modern Major League Baseball, debuting for the Brooklyn Dodgers.",
+    "cat": "sports",
+    "type": "event"
+  },
+  {
+    "date": "04-15",
+    "year": 1989,
+    "title": "Hillsborough disaster",
+    "desc": "96 Liverpool fans were crushed to death at Hillsborough Stadium in Sheffield, England's worst sporting disaster.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "04-18",
+    "year": 1955,
+    "title": "Death of Albert Einstein",
+    "desc": "Physicist Albert Einstein died in Princeton, New Jersey, aged 76, having revolutionized our understanding of space, time, and gravity.",
+    "cat": "people",
+    "type": "death",
+    "pc": "scientist"
+  },
+  {
+    "date": "04-19",
+    "year": 1775,
+    "title": "Battles of Lexington and Concord",
+    "desc": "The first military engagements of the American Revolutionary War took place in Massachusetts.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "04-20",
+    "year": 1889,
+    "title": "Birth of Adolf Hitler",
+    "desc": "Adolf Hitler, the dictator who led Nazi Germany into World War II and orchestrated the Holocaust, was born in Braunau am Inn, Austria.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "politician"
+  },
+  {
+    "date": "04-20",
+    "year": 1902,
+    "title": "Pierre & Marie Curie isolate radium",
+    "desc": "Pierre and Marie Curie successfully isolated the radioactive element radium, the culmination of years of work on pitchblende.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "04-21",
+    "year": 753,
+    "title": "Founding of Rome",
+    "desc": "According to tradition, Romulus founded the city of Rome on the Palatine Hill.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "04-21",
+    "year": 1910,
+    "title": "Death of Mark Twain",
+    "desc": "American author Mark Twain, born Samuel Clemens, died in Redding, Connecticut, aged 74.",
+    "cat": "people",
+    "type": "death",
+    "pc": "writer"
+  },
+  {
+    "date": "04-22",
+    "year": 1970,
+    "title": "First Earth Day",
+    "desc": "The first Earth Day was celebrated in the United States, marking the birth of the modern environmental movement.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "04-23",
+    "year": 1564,
+    "title": "Birth of Shakespeare",
+    "desc": "English playwright and poet William Shakespeare, widely regarded as the greatest writer in English literature, was born in Stratford-upon-Avon.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "writer"
+  },
+  {
+    "date": "04-23",
+    "year": 1616,
+    "title": "Death of Shakespeare",
+    "desc": "William Shakespeare died on his 52nd birthday in Stratford-upon-Avon, leaving behind 39 plays and 154 sonnets.",
+    "cat": "people",
+    "type": "death",
+    "pc": "writer"
+  },
+  {
+    "date": "04-24",
+    "year": 1990,
+    "title": "Hubble Space Telescope",
+    "desc": "The Hubble Space Telescope was launched aboard Space Shuttle Discovery, revolutionizing astronomy for the next three decades.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "04-25",
+    "year": 1953,
+    "title": "DNA structure published",
+    "desc": "James Watson and Francis Crick's paper on the double-helix structure of DNA was published in the journal Nature.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "04-26",
+    "year": 1986,
+    "title": "Chernobyl disaster",
+    "desc": "Reactor No. 4 at the Chernobyl Nuclear Power Plant exploded in Soviet Ukraine, the worst nuclear accident in history.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "04-28",
+    "year": 1945,
+    "title": "Death of Mussolini",
+    "desc": "Italian fascist dictator Benito Mussolini was executed by Italian partisans and his body hung upside down in Milan.",
+    "cat": "people",
+    "type": "death",
+    "pc": "politician"
+  },
+  {
+    "date": "04-30",
+    "year": 1789,
+    "title": "Washington inaugurated",
+    "desc": "George Washington was inaugurated as the first President of the United States at Federal Hall in New York City.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "04-30",
+    "year": 1945,
+    "title": "Hitler's suicide",
+    "desc": "Adolf Hitler committed suicide in his Berlin bunker, ending his 12-year dictatorship of Nazi Germany.",
+    "cat": "people",
+    "type": "death",
+    "pc": "politician"
+  },
+  {
+    "date": "05-01",
+    "year": 1707,
+    "title": "Act of Union signed",
+    "desc": "The Act of Union united England and Scotland into the Kingdom of Great Britain, taking effect on May 1.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "05-01",
+    "year": 1931,
+    "title": "Empire State Building opens",
+    "desc": "The Empire State Building was officially opened in New York City, then the tallest building in the world.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "05-05",
+    "year": 1821,
+    "title": "Death of Napoleon",
+    "desc": "French Emperor Napoleon Bonaparte died in British exile on the island of St. Helena in the South Atlantic, aged 51.",
+    "cat": "people",
+    "type": "death",
+    "pc": "politician"
+  },
+  {
+    "date": "05-06",
+    "year": 1937,
+    "title": "Hindenburg disaster",
+    "desc": "The German airship Hindenburg burst into flames while landing in New Jersey, killing 36 and ending the era of passenger airships.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "05-07",
+    "year": 1840,
+    "title": "Birth of Tchaikovsky",
+    "desc": "Russian composer Pyotr Ilyich Tchaikovsky was born in Votkinsk, Russia.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "05-07",
+    "year": 1945,
+    "title": "Germany surrenders",
+    "desc": "Nazi Germany signed an unconditional surrender at Allied headquarters in Reims, France, ending the war in Europe.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "05-08",
+    "year": 1886,
+    "title": "Coca-Cola invented",
+    "desc": "Pharmacist John Pemberton first sold Coca-Cola at Jacobs' Pharmacy in Atlanta, Georgia.",
+    "cat": "economy",
+    "type": "event"
+  },
+  {
+    "date": "05-08",
+    "year": 1945,
+    "title": "VE Day",
+    "desc": "Victory in Europe Day was celebrated as the end of World War II in Europe was formally accepted by the Allies.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "05-10",
+    "year": 1994,
+    "title": "Mandela inaugurated",
+    "desc": "Nelson Mandela was inaugurated as President of South Africa, the country's first black head of state.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "05-11",
+    "year": 1997,
+    "title": "Deep Blue beats Kasparov",
+    "desc": "IBM's Deep Blue became the first computer to defeat a reigning world chess champion in a match, beating Garry Kasparov 3.5-2.5.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "05-14",
+    "year": 1796,
+    "title": "First smallpox vaccination",
+    "desc": "English doctor Edward Jenner tested the first smallpox vaccine on 8-year-old James Phipps, using cowpox.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "05-14",
+    "year": 1948,
+    "title": "Israel established",
+    "desc": "The State of Israel was declared by David Ben-Gurion, immediately leading to war with neighboring Arab states.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "05-15",
+    "year": 1930,
+    "title": "First airline stewardess",
+    "desc": "Ellen Church became the world's first airline stewardess, working a Boeing Air Transport flight from Oakland to Chicago.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "05-17",
+    "year": 1792,
+    "title": "NY Stock Exchange founded",
+    "desc": "24 brokers signed the Buttonwood Agreement under a buttonwood tree on Wall Street, founding the New York Stock Exchange.",
+    "cat": "economy",
+    "type": "event"
+  },
+  {
+    "date": "05-18",
+    "year": 1980,
+    "title": "Mount St. Helens erupts",
+    "desc": "Mount St. Helens in Washington state erupted in a massive explosion, killing 57 people and reducing the mountain's height by 1,300 feet.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "05-20",
+    "year": 1498,
+    "title": "Vasco da Gama reaches India",
+    "desc": "Portuguese explorer Vasco da Gama became the first European to reach India by sea, arriving at Calicut after sailing around Africa.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "05-20",
+    "year": 1927,
+    "title": "Lindbergh takes off",
+    "desc": "American aviator Charles Lindbergh took off from New York in the Spirit of St. Louis on the first solo non-stop transatlantic flight.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "05-21",
+    "year": 1927,
+    "title": "Lindbergh reaches Paris",
+    "desc": "Charles Lindbergh landed at Le Bourget Field near Paris, completing the first solo non-stop transatlantic airplane flight in 33.5 hours.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "05-22",
+    "year": 1885,
+    "title": "Death of Victor Hugo",
+    "desc": "French novelist and poet Victor Hugo, author of 'Les Miserables' and 'The Hunchback of Notre-Dame', died in Paris.",
+    "cat": "people",
+    "type": "death",
+    "pc": "writer"
+  },
+  {
+    "date": "05-23",
+    "year": 1934,
+    "title": "Bonnie & Clyde killed",
+    "desc": "Outlaws Bonnie Parker and Clyde Barrow were shot and killed in an ambush by law officers in Bienville Parish, Louisiana.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "05-24",
+    "year": 1844,
+    "title": "First Morse telegraph message",
+    "desc": "Samuel Morse sent the first telegraph message 'What hath God wrought' from Washington D.C. to Baltimore.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "05-25",
+    "year": 1961,
+    "title": "JFK Moon speech",
+    "desc": "President John F. Kennedy announced the goal of landing a man on the Moon before the end of the decade.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "05-25",
+    "year": 1977,
+    "title": "'Star Wars' released",
+    "desc": "George Lucas's 'Star Wars' opened in U.S. theaters, becoming one of the highest-grossing and most influential films in history.",
+    "cat": "entertainment",
+    "type": "event"
+  },
+  {
+    "date": "05-26",
+    "year": 1896,
+    "title": "First Dow Jones published",
+    "desc": "The Wall Street Journal first published the Dow Jones Industrial Average, then composed of 12 industrial stocks.",
+    "cat": "economy",
+    "type": "event"
+  },
+  {
+    "date": "05-29",
+    "year": 1453,
+    "title": "Fall of Constantinople",
+    "desc": "Ottoman forces under Sultan Mehmed II captured Constantinople, ending the Byzantine Empire after 1,000 years.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "05-30",
+    "year": 1431,
+    "title": "Execution of Joan of Arc",
+    "desc": "French heroine Joan of Arc was burned at the stake in Rouen, France, by the English at age 19.",
+    "cat": "people",
+    "type": "death",
+    "pc": "military"
+  },
+  {
+    "date": "05-31",
+    "year": 1809,
+    "title": "Death of Haydn",
+    "desc": "Austrian composer Joseph Haydn died in Vienna, aged 77.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "06-01",
+    "year": 1495,
+    "title": "First Scotch whisky record",
+    "desc": "The first written record of Scotch whisky appeared in the Exchequer Rolls of Scotland, in the accounts of Friar John Cor.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "06-01",
+    "year": 1968,
+    "title": "Death of Helen Keller",
+    "desc": "American author and activist Helen Keller died in Easton, Connecticut, aged 87.",
+    "cat": "people",
+    "type": "death",
+    "pc": "activist"
+  },
+  {
+    "date": "06-03",
+    "year": 1965,
+    "title": "First American spacewalk",
+    "desc": "Astronaut Ed White became the first American to walk in space during the Gemini 4 mission.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "06-04",
+    "year": 1783,
+    "title": "First hot-air balloon flight",
+    "desc": "The Montgolfier brothers demonstrated their hot-air balloon with the first unmanned flight in Annonay, France.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "06-05",
+    "year": 1947,
+    "title": "Marshall Plan announced",
+    "desc": "U.S. Secretary of State George Marshall announced the European Recovery Program to rebuild Western Europe after WWII.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "06-05",
+    "year": 1968,
+    "title": "Assassination of RFK",
+    "desc": "U.S. Senator and presidential candidate Robert F. Kennedy was shot in Los Angeles, dying the next day.",
+    "cat": "people",
+    "type": "death",
+    "pc": "politician"
+  },
+  {
+    "date": "06-06",
+    "year": 1944,
+    "title": "D-Day landings",
+    "desc": "Allied forces launched the Normandy landings (D-Day), the largest seaborne invasion in history, beginning the liberation of Western Europe.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "06-08",
+    "year": 632,
+    "title": "Death of Prophet Muhammad",
+    "desc": "Muhammad, the founder of Islam, died in Medina after a brief illness, having unified the Arabian Peninsula.",
+    "cat": "people",
+    "type": "death",
+    "pc": "religious"
+  },
+  {
+    "date": "06-09",
+    "year": 1870,
+    "title": "Death of Charles Dickens",
+    "desc": "English novelist Charles Dickens died at Gad's Hill Place, Kent, aged 58, after a stroke.",
+    "cat": "people",
+    "type": "death",
+    "pc": "writer"
+  },
+  {
+    "date": "06-10",
+    "year": 1935,
+    "title": "AA founded",
+    "desc": "Alcoholics Anonymous was founded in Akron, Ohio, by Bill Wilson and Dr. Bob Smith, launching a global recovery movement.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "06-12",
+    "year": 1898,
+    "title": "Philippines independence declared",
+    "desc": "The Philippines declared independence from Spain, though it would not gain true independence until 1946.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "06-13",
+    "year": 323,
+    "title": "Death of Alexander the Great",
+    "desc": "Alexander the Great, who created one of the largest empires in history by age 30, died in Babylon at age 32.",
+    "cat": "people",
+    "type": "death",
+    "pc": "monarch"
+  },
+  {
+    "date": "06-14",
+    "year": 1900,
+    "title": "Hawaii becomes U.S. territory",
+    "desc": "The Hawaiian Islands became a U.S. territory, after the overthrow of the Hawaiian monarchy in 1893.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "06-14",
+    "year": 1928,
+    "title": "Birth of Che Guevara",
+    "desc": "Argentine Marxist revolutionary Ernesto 'Che' Guevara was born in Rosario, Argentina.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "activist"
+  },
+  {
+    "date": "06-15",
+    "year": 1215,
+    "title": "Magna Carta signed",
+    "desc": "King John of England sealed the Magna Carta at Runnymede, establishing key principles of limited government and rule of law.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "06-15",
+    "year": 1752,
+    "title": "Franklin's kite experiment",
+    "desc": "Benjamin Franklin flew a kite in a thunderstorm, demonstrating that lightning is electricity.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "06-16",
+    "year": 1963,
+    "title": "First woman in space",
+    "desc": "Soviet cosmonaut Valentina Tereshkova became the first woman in space aboard Vostok 6, orbiting Earth 48 times.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "06-18",
+    "year": 1815,
+    "title": "Battle of Waterloo",
+    "desc": "An allied army led by Wellington and Prussian forces defeated Napoleon Bonaparte at Waterloo, ending his rule.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "06-20",
+    "year": 1837,
+    "title": "Victoria becomes queen",
+    "desc": "Alexandrina Victoria became Queen of the United Kingdom at age 18, beginning a 63-year reign.",
+    "cat": "people",
+    "type": "event",
+    "pc": "monarch"
+  },
+  {
+    "date": "06-21",
+    "year": 1948,
+    "title": "First stored-program computer",
+    "desc": "The Manchester Small-Scale Experimental Machine (the 'Baby') ran its first program, the world's first stored-program computer.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "06-23",
+    "year": 1912,
+    "title": "Birth of Alan Turing",
+    "desc": "British mathematician Alan Turing, father of theoretical computer science and AI, was born in London.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "scientist"
+  },
+  {
+    "date": "06-23",
+    "year": 2005,
+    "title": "Reddit founded",
+    "desc": "Social news platform Reddit was founded by Steve Huffman and Alexis Ohanian in Medford, Massachusetts.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "06-23",
+    "year": 2016,
+    "title": "UK Brexit vote",
+    "desc": "The United Kingdom voted to leave the European Union, 52% to 48%, in a historic referendum.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "06-24",
+    "year": 1497,
+    "title": "Cabot reaches North America",
+    "desc": "Italian explorer John Cabot, sailing for England, landed in North America, likely in Newfoundland, Canada.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "06-25",
+    "year": 1876,
+    "title": "Battle of Little Bighorn",
+    "desc": "A combined force of Lakota and Northern Cheyenne warriors defeated the U.S. 7th Cavalry under Custer in Montana.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "06-26",
+    "year": 1945,
+    "title": "UN Charter signed",
+    "desc": "Representatives of 50 nations signed the United Nations Charter in San Francisco, establishing the UN.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "06-27",
+    "year": 1880,
+    "title": "Birth of Helen Keller",
+    "desc": "American author and activist Helen Keller, deaf and blind from age 19 months, was born in Tuscumbia, Alabama.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "activist"
+  },
+  {
+    "date": "06-28",
+    "year": 1914,
+    "title": "Assassination of Franz Ferdinand",
+    "desc": "Austrian Archduke Franz Ferdinand was assassinated in Sarajevo by Gavrilo Princip, triggering World War I.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "06-28",
+    "year": 1919,
+    "title": "Treaty of Versailles",
+    "desc": "The Treaty of Versailles was signed, officially ending World War I and imposing harsh terms on Germany.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "06-30",
+    "year": 1908,
+    "title": "Tunguska event",
+    "desc": "A massive explosion, likely caused by a meteor airburst, flattened 80 million trees over 2,000 sq km in remote Siberia.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "07-01",
+    "year": 1941,
+    "title": "First TV commercial",
+    "desc": "The first legal television commercial aired in the U.S. on WNBT before a Brooklyn Dodgers game.",
+    "cat": "entertainment",
+    "type": "event"
+  },
+  {
+    "date": "07-01",
+    "year": 1997,
+    "title": "Hong Kong handover",
+    "desc": "The United Kingdom transferred sovereignty of Hong Kong to the People's Republic of China after 156 years of British rule.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "07-02",
+    "year": 1778,
+    "title": "Death of Rousseau",
+    "desc": "Philosopher Jean-Jacques Rousseau died in Ermenonville, France, aged 66.",
+    "cat": "people",
+    "type": "death",
+    "pc": "philosopher"
+  },
+  {
+    "date": "07-02",
+    "year": 1881,
+    "title": "Garfield shot",
+    "desc": "U.S. President James A. Garfield was shot at a Washington train station by Charles Guiteau, dying 79 days later.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "07-02",
+    "year": 1961,
+    "title": "Death of Hemingway",
+    "desc": "American novelist Ernest Hemingway died by suicide at his home in Ketchum, Idaho, aged 61.",
+    "cat": "people",
+    "type": "death",
+    "pc": "writer"
+  },
+  {
+    "date": "07-04",
+    "year": 1776,
+    "title": "U.S. Declaration of Independence",
+    "desc": "The United States declared independence from Great Britain, adopted by the Continental Congress in Philadelphia.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "07-04",
+    "year": 1934,
+    "title": "Death of Marie Curie",
+    "desc": "Marie Curie died in France from aplastic anemia, caused by her radiation research, aged 66.",
+    "cat": "people",
+    "type": "death",
+    "pc": "scientist"
+  },
+  {
+    "date": "07-04",
+    "year": 1976,
+    "title": "U.S. Bicentennial",
+    "desc": "The United States celebrated its 200th anniversary of independence with nationwide festivities.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "07-05",
+    "year": 1994,
+    "title": "Amazon founded",
+    "desc": "Jeff Bezos founded Amazon.com in Seattle, initially as an online bookstore, later becoming the world's largest online retailer.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "07-06",
+    "year": 1885,
+    "title": "First rabies vaccine",
+    "desc": "Louis Pasteur successfully tested his rabies vaccine on 9-year-old Joseph Meister, who had been bitten by a rabid dog.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "07-07",
+    "year": 1940,
+    "title": "Birth of Ringo Starr",
+    "desc": "Beatles drummer Ringo Starr (born Richard Starkey) was born in Liverpool, England.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "07-07",
+    "year": 1973,
+    "title": "Death of Jim Morrison",
+    "desc": "Doors frontman Jim Morrison was found dead in his Paris apartment bathtub, aged 27, of heart failure.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "07-10",
+    "year": 1856,
+    "title": "Birth of Nikola Tesla",
+    "desc": "Serbian-American inventor Nikola Tesla, pioneer of alternating current electricity, was born in Smiljan, Austrian Empire.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "inventor"
+  },
+  {
+    "date": "07-10",
+    "year": 1962,
+    "title": "First communications satellite",
+    "desc": "Telstar, the first active communications satellite, was launched, enabling the first transatlantic television transmissions.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "07-14",
+    "year": 1789,
+    "title": "Storming of the Bastille",
+    "desc": "Parisians stormed the Bastille prison, the flashpoint of the French Revolution, now celebrated as France's national day.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "07-15",
+    "year": 2006,
+    "title": "Twitter launches",
+    "desc": "Twitter (later X) was launched, becoming a major social media platform for real-time communication.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "07-16",
+    "year": 1945,
+    "title": "Trinity nuclear test",
+    "desc": "The United States successfully detonated the world's first atomic bomb in the New Mexico desert, beginning the nuclear age.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "07-16",
+    "year": 1969,
+    "title": "Apollo 11 launches",
+    "desc": "Apollo 11 launched from Kennedy Space Center carrying Neil Armstrong, Buzz Aldrin, and Michael Collins on the first Moon landing mission.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "07-17",
+    "year": 1955,
+    "title": "Disneyland opens",
+    "desc": "Walt Disney's Disneyland theme park opened in Anaheim, California, the first of its kind.",
+    "cat": "entertainment",
+    "type": "event"
+  },
+  {
+    "date": "07-17",
+    "year": 1975,
+    "title": "Apollo-Soyuz docking",
+    "desc": "U.S. Apollo and Soviet Soyuz spacecraft docked in orbit, the first international space collaboration and symbolic end of the Space Race.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "07-18",
+    "year": 1918,
+    "title": "Birth of Nelson Mandela",
+    "desc": "Nelson Mandela, anti-apartheid revolutionary and first black President of South Africa, was born in Mvezo, South Africa.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "politician"
+  },
+  {
+    "date": "07-19",
+    "year": 1903,
+    "title": "First Tour de France",
+    "desc": "Maurice Garin won the first Tour de France cycling race, covering 2,428 km in 19 days.",
+    "cat": "sports",
+    "type": "event"
+  },
+  {
+    "date": "07-20",
+    "year": 1969,
+    "title": "First Moon landing",
+    "desc": "Neil Armstrong became the first human to walk on the Moon, declaring 'that's one small step for man, one giant leap for mankind.'",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "07-21",
+    "year": 1899,
+    "title": "Birth of Hemingway",
+    "desc": "American novelist Ernest Hemingway was born in Oak Park, Illinois.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "writer"
+  },
+  {
+    "date": "07-23",
+    "year": 1995,
+    "title": "Comet Hale-Bopp discovered",
+    "desc": "Alan Hale and Thomas Bopp independently discovered Comet Hale-Bopp, one of the brightest comets of the 20th century.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "07-24",
+    "year": 1969,
+    "title": "Apollo 11 returns",
+    "desc": "Apollo 11 and its three astronauts splashed down safely in the Pacific Ocean, completing the first crewed Moon landing mission.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "07-25",
+    "year": 1978,
+    "title": "First test-tube baby",
+    "desc": "Louise Brown, the world's first baby conceived via in vitro fertilization (IVF), was born in Oldham, England.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "07-26",
+    "year": 1943,
+    "title": "Birth of Mick Jagger",
+    "desc": "British rock singer Mick Jagger, frontman of the Rolling Stones, was born in Dartford, Kent, England.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "07-28",
+    "year": 1750,
+    "title": "Death of J.S. Bach",
+    "desc": "German composer Johann Sebastian Bach died in Leipzig, aged 65, leaving a vast musical legacy.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "07-28",
+    "year": 1914,
+    "title": "WWI begins",
+    "desc": "Austria-Hungary declared war on Serbia, beginning World War I, exactly one month after Franz Ferdinand's assassination.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "07-28",
+    "year": 1976,
+    "title": "Tangshan earthquake",
+    "desc": "A massive 7.8 earthquake struck Tangshan, China, killing an estimated 242,000 people, one of the deadliest in history.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "07-29",
+    "year": 1958,
+    "title": "NASA founded",
+    "desc": "The National Aeronautics and Space Administration (NASA) was established by U.S. President Eisenhower.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "07-29",
+    "year": 1981,
+    "title": "Charles & Diana wedding",
+    "desc": "Prince Charles married Lady Diana Spencer at St Paul's Cathedral in London, watched by 750 million people worldwide.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "07-30",
+    "year": 1930,
+    "title": "First World Cup final",
+    "desc": "Uruguay won the first FIFA World Cup, defeating Argentina 4-2 in the final in Montevideo.",
+    "cat": "sports",
+    "type": "event"
+  },
+  {
+    "date": "07-30",
+    "year": 1966,
+    "title": "1966 World Cup final",
+    "desc": "England won their only FIFA World Cup, beating West Germany 4-2 at Wembley Stadium, with Geoff Hurst's hat-trick.",
+    "cat": "sports",
+    "type": "event"
+  },
+  {
+    "date": "08-01",
+    "year": 1981,
+    "title": "MTV launches",
+    "desc": "Music television channel MTV launched with the words 'Ladies and gentlemen, rock and roll' and the Buggles' 'Video Killed the Radio Star'.",
+    "cat": "music",
+    "type": "event"
+  },
+  {
+    "date": "08-02",
+    "year": 1990,
+    "title": "Iraq invades Kuwait",
+    "desc": "Iraq under Saddam Hussein invaded neighboring Kuwait, triggering the Gulf War and a U.S.-led international response.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "08-03",
+    "year": 1492,
+    "title": "Columbus departs",
+    "desc": "Christopher Columbus set sail from Palos, Spain, on his first voyage to find a western route to Asia.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "08-05",
+    "year": 1930,
+    "title": "Birth of Neil Armstrong",
+    "desc": "American astronaut Neil Armstrong, the first human to walk on the Moon, was born in Wapakoneta, Ohio.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "astronaut"
+  },
+  {
+    "date": "08-06",
+    "year": 1945,
+    "title": "Hiroshima atomic bomb",
+    "desc": "The United States dropped an atomic bomb on Hiroshima, Japan, killing an estimated 140,000 people by the end of the year.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "08-06",
+    "year": 1991,
+    "title": "First website",
+    "desc": "Tim Berners-Lee posted the first website at CERN, describing the World Wide Web project.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "08-09",
+    "year": 1945,
+    "title": "Nagasaki atomic bomb",
+    "desc": "The United States dropped a second atomic bomb on Nagasaki, Japan, killing an estimated 70,000 people.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "08-12",
+    "year": 1981,
+    "title": "IBM PC released",
+    "desc": "IBM released the IBM Personal Computer (model 5150), the machine that established the PC standard for decades.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "08-13",
+    "year": 1961,
+    "title": "Berlin Wall built",
+    "desc": "East Germany began constructing the Berlin Wall, sealing off East Berlin from West Berlin for 28 years.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "08-15",
+    "year": 1945,
+    "title": "V-J Day",
+    "desc": "Japan surrendered unconditionally to the Allies, effectively ending World War II (formal signing came September 2).",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "08-15",
+    "year": 1969,
+    "title": "Woodstock festival begins",
+    "desc": "The Woodstock Music and Art Fair opened in Bethel, New York, becoming the defining event of the 1960s counterculture.",
+    "cat": "music",
+    "type": "event"
+  },
+  {
+    "date": "08-16",
+    "year": 1977,
+    "title": "Death of Elvis Presley",
+    "desc": "Elvis Presley, the 'King of Rock and Roll', died at his Graceland home in Memphis, Tennessee, aged 42.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "08-19",
+    "year": 14,
+    "title": "Death of Augustus",
+    "desc": "Augustus, the first Roman Emperor, died at age 75 after a 41-year reign that began the Roman Principate.",
+    "cat": "people",
+    "type": "death",
+    "pc": "monarch"
+  },
+  {
+    "date": "08-21",
+    "year": 1911,
+    "title": "Mona Lisa stolen",
+    "desc": "Vincenzo Peruggia stole Leonardo da Vinci's Mona Lisa from the Louvre; it was recovered in Florence in 1913.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "08-21",
+    "year": 1959,
+    "title": "Hawaii becomes 50th state",
+    "desc": "Hawaii became the 50th and most recent state of the United States of America.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "08-24",
+    "year": 79,
+    "title": "Eruption of Vesuvius",
+    "desc": "Mount Vesuvius erupted, burying the Roman cities of Pompeii and Herculaneum and killing thousands.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "08-24",
+    "year": 410,
+    "title": "Sack of Rome by Visigoths",
+    "desc": "Visigoths under Alaric sacked Rome for the first time in 800 years, shocking the Roman world.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "08-25",
+    "year": 1609,
+    "title": "Galileo demonstrates telescope",
+    "desc": "Galileo Galilei demonstrated his telescope to the Venetian Senate, opening a new era of astronomical observation.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "08-25",
+    "year": 1918,
+    "title": "Birth of Leonard Bernstein",
+    "desc": "American composer and conductor Leonard Bernstein was born in Lawrence, Massachusetts.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "08-25",
+    "year": 2012,
+    "title": "Death of Neil Armstrong",
+    "desc": "Astronaut Neil Armstrong died in Cincinnati, Ohio, aged 82, three weeks after heart surgery.",
+    "cat": "people",
+    "type": "death",
+    "pc": "astronaut"
+  },
+  {
+    "date": "08-27",
+    "year": 1883,
+    "title": "Eruption of Krakatoa",
+    "desc": "The volcanic island of Krakatoa in Indonesia erupted in a catastrophic explosion heard 3,000 miles away, killing over 36,000.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "08-28",
+    "year": 1963,
+    "title": "'I Have a Dream' speech",
+    "desc": "Martin Luther King Jr. delivered his iconic 'I Have a Dream' speech at the Lincoln Memorial during the March on Washington.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "08-29",
+    "year": 1958,
+    "title": "Birth of Michael Jackson",
+    "desc": "Pop superstar Michael Jackson was born in Gary, Indiana, the seventh of nine Jackson children.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "08-29",
+    "year": 1997,
+    "title": "Netflix founded",
+    "desc": "Reed Hastings and Marc Randolph founded Netflix in Scotts Valley, California, initially as a DVD rental-by-mail service.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "08-30",
+    "year": 30,
+    "title": "Death of Cleopatra",
+    "desc": "Egyptian queen Cleopatra VII died in Alexandria, traditionally by snakebite, ending the Ptolemaic dynasty.",
+    "cat": "people",
+    "type": "death",
+    "pc": "monarch"
+  },
+  {
+    "date": "08-31",
+    "year": 1997,
+    "title": "Death of Princess Diana",
+    "desc": "Diana, Princess of Wales, was killed in a car crash in Paris, aged 36, along with Dodi Fayed and driver Henri Paul.",
+    "cat": "people",
+    "type": "death",
+    "pc": "activist"
+  },
+  {
+    "date": "09-01",
+    "year": 1923,
+    "title": "Great Kanto earthquake",
+    "desc": "A 7.9 earthquake struck the Kanto region of Japan, killing over 100,000 people and destroying Tokyo and Yokohama.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "09-01",
+    "year": 1939,
+    "title": "WWII begins",
+    "desc": "Nazi Germany invaded Poland, prompting Britain and France to declare war two days later, beginning World War II.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "09-02",
+    "year": 1666,
+    "title": "Great Fire of London",
+    "desc": "A major fire swept through central London for four days, destroying around 13,200 houses and 87 churches including St Paul's.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "09-02",
+    "year": 1945,
+    "title": "Japan formally surrenders",
+    "desc": "Japan signed the formal surrender documents aboard the USS Missouri in Tokyo Bay, officially ending World War II.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "09-05",
+    "year": 1972,
+    "title": "Munich massacre",
+    "desc": "Palestinian terrorists killed 11 Israeli athletes at the Munich Olympics, shocking the world live on television.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "09-05",
+    "year": 1977,
+    "title": "Voyager 1 launched",
+    "desc": "NASA launched Voyager 1, now the most distant human-made object, heading into interstellar space.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "09-06",
+    "year": 1901,
+    "title": "McKinley shot",
+    "desc": "U.S. President William McKinley was shot by anarchist Leon Czolgosz in Buffalo, NY, dying on September 14.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "09-07",
+    "year": 1533,
+    "title": "Birth of Elizabeth I",
+    "desc": "Queen Elizabeth I of England, who would rule during the Elizabethan era, was born at Greenwich Palace.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "monarch"
+  },
+  {
+    "date": "09-09",
+    "year": 1087,
+    "title": "Death of William the Conqueror",
+    "desc": "William I, the Norman King of England who invaded in 1066, died in Rouen, France, after a fall from his horse.",
+    "cat": "people",
+    "type": "death",
+    "pc": "monarch"
+  },
+  {
+    "date": "09-09",
+    "year": 1947,
+    "title": "First computer bug",
+    "desc": "Operators of the Harvard Mark II computer found a moth causing a malfunction, the first literal 'computer bug'.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "09-10",
+    "year": 2008,
+    "title": "LHC first beam",
+    "desc": "CERN's Large Hadron Collider, the world's largest particle accelerator, was first put into operation beneath Switzerland.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "09-11",
+    "year": 2001,
+    "title": "September 11 attacks",
+    "desc": "Terrorists hijacked four airliners, crashing two into the World Trade Center and one into the Pentagon, killing nearly 3,000 people.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "09-12",
+    "year": 1962,
+    "title": "JFK Moon speech at Rice",
+    "desc": "President Kennedy declared 'we choose to go to the Moon' in his speech at Rice University.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "09-13",
+    "year": 1996,
+    "title": "Death of Tupac Shakur",
+    "desc": "American rapper Tupac Shakur died in Las Vegas, six days after being shot in a drive-by shooting, aged 25.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "09-14",
+    "year": 1983,
+    "title": "Birth of Amy Winehouse",
+    "desc": "British singer Amy Winehouse was born in Southgate, London.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "09-15",
+    "year": 1830,
+    "title": "Liverpool & Manchester Railway",
+    "desc": "The world's first inter-city passenger railway opened in England, marking the dawn of the railway age.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "09-16",
+    "year": 1620,
+    "title": "Mayflower departs",
+    "desc": "The Mayflower set sail from Plymouth, England, carrying Pilgrims who would found Plymouth Colony in Massachusetts.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "09-17",
+    "year": 1787,
+    "title": "US Constitution signed",
+    "desc": "The U.S. Constitution was signed in Philadelphia, replacing the Articles of Confederation.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "09-18",
+    "year": 1970,
+    "title": "Death of Jimi Hendrix",
+    "desc": "Guitarist Jimi Hendrix died in London, aged 27, from asphyxia after taking sleeping pills.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "09-19",
+    "year": 1881,
+    "title": "Death of James Garfield",
+    "desc": "U.S. President James A. Garfield died from wounds after being shot by an assassin on July 2.",
+    "cat": "people",
+    "type": "death",
+    "pc": "politician"
+  },
+  {
+    "date": "09-20",
+    "year": 1519,
+    "title": "Magellan's voyage begins",
+    "desc": "Ferdinand Magellan set sail from Spain with five ships on the first circumnavigation of the globe.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "09-22",
+    "year": 1862,
+    "title": "Lincoln's Emancipation preview",
+    "desc": "President Lincoln issued the preliminary Emancipation Proclamation, warning the Confederacy of emancipation to come.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "09-23",
+    "year": 1846,
+    "title": "Discovery of Neptune",
+    "desc": "German astronomer Johann Galle discovered Neptune based on mathematical predictions by Le Verrier.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "09-23",
+    "year": 1939,
+    "title": "Death of Sigmund Freud",
+    "desc": "Sigmund Freud died in London by physician-assisted morphine overdose, aged 83, fleeing Nazi Austria.",
+    "cat": "people",
+    "type": "death",
+    "pc": "psychologist"
+  },
+  {
+    "date": "09-25",
+    "year": 1956,
+    "title": "First transatlantic telephone cable",
+    "desc": "TAT-1, the first transatlantic telephone cable, went into service between Scotland and Newfoundland.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "09-26",
+    "year": 1983,
+    "title": "Soviet nuclear false alarm",
+    "desc": "Soviet officer Stanislav Petrov correctly judged a U.S. missile launch warning as false, likely preventing nuclear war.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "09-27",
+    "year": 1996,
+    "title": "Taliban take Kabul",
+    "desc": "The Taliban captured Afghanistan's capital Kabul, beginning five years of strict Islamist rule.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "09-28",
+    "year": 1928,
+    "title": "Penicillin discovered",
+    "desc": "Alexander Fleming noticed that a mold (Penicillium) had killed bacteria in a petri dish, leading to the first antibiotic.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "09-29",
+    "year": 1988,
+    "title": "First shuttle post-Challenger",
+    "desc": "Space Shuttle Discovery launched on STS-26, the first shuttle mission after the Challenger disaster.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "10-01",
+    "year": 1949,
+    "title": "PRC founded",
+    "desc": "Mao Zedong proclaimed the founding of the People's Republic of China in Beijing's Tiananmen Square.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "10-02",
+    "year": 1869,
+    "title": "Birth of Mahatma Gandhi",
+    "desc": "Mohandas K. Gandhi, leader of India's independence movement, was born in Porbandar, India.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "politician"
+  },
+  {
+    "date": "10-04",
+    "year": 1957,
+    "title": "Sputnik 1 launched",
+    "desc": "The Soviet Union launched Sputnik 1, the first artificial satellite, starting the Space Age and the Space Race.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "10-06",
+    "year": 2010,
+    "title": "Instagram launches",
+    "desc": "Photo-sharing app Instagram was launched by Kevin Systrom and Mike Krieger, later acquired by Facebook for $1 billion.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "10-07",
+    "year": 2008,
+    "title": "Spotify launches",
+    "desc": "Music streaming service Spotify launched in Europe, transforming how the world listens to music.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "10-09",
+    "year": 1940,
+    "title": "Birth of John Lennon",
+    "desc": "Beatles member and solo artist John Lennon was born in Liverpool, England.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "10-09",
+    "year": 1967,
+    "title": "Death of Che Guevara",
+    "desc": "Argentine revolutionary Che Guevara was executed by Bolivian forces after his capture in the Bolivian jungle.",
+    "cat": "people",
+    "type": "death",
+    "pc": "activist"
+  },
+  {
+    "date": "10-12",
+    "year": 1492,
+    "title": "Columbus reaches the Americas",
+    "desc": "Christopher Columbus made landfall in the Bahamas, opening the way for European colonization of the Americas.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "10-13",
+    "year": 54,
+    "title": "Death of Claudius",
+    "desc": "Roman Emperor Claudius died in Rome, reportedly poisoned by his wife Agrippina; Nero succeeded him.",
+    "cat": "people",
+    "type": "death",
+    "pc": "monarch"
+  },
+  {
+    "date": "10-14",
+    "year": 1066,
+    "title": "Battle of Hastings",
+    "desc": "William, Duke of Normandy defeated King Harold II of England, beginning the Norman conquest of England.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "10-14",
+    "year": 1947,
+    "title": "First supersonic flight",
+    "desc": "American test pilot Chuck Yeager became the first person to break the sound barrier, flying the Bell X-1.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "10-14",
+    "year": 1990,
+    "title": "Death of Bernstein",
+    "desc": "American conductor and composer Leonard Bernstein died in New York, aged 72.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "10-15",
+    "year": 1844,
+    "title": "Birth of Nietzsche",
+    "desc": "German philosopher Friedrich Nietzsche was born in Rocken, Prussia.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "philosopher"
+  },
+  {
+    "date": "10-16",
+    "year": 1793,
+    "title": "Execution of Marie Antoinette",
+    "desc": "Marie Antoinette, Queen of France, was guillotined during the French Revolution's Reign of Terror.",
+    "cat": "people",
+    "type": "death",
+    "pc": "monarch"
+  },
+  {
+    "date": "10-17",
+    "year": 1849,
+    "title": "Death of Chopin",
+    "desc": "Polish composer Frederic Chopin died in Paris, aged 39, of tuberculosis.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "10-18",
+    "year": 1931,
+    "title": "Death of Thomas Edison",
+    "desc": "American inventor Thomas Edison died at his West Orange, New Jersey laboratory, aged 84, holder of 1,093 U.S. patents.",
+    "cat": "people",
+    "type": "death",
+    "pc": "inventor"
+  },
+  {
+    "date": "10-19",
+    "year": 1781,
+    "title": "Yorktown surrender",
+    "desc": "British General Cornwallis surrendered to George Washington at Yorktown, effectively ending the American Revolution.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "10-21",
+    "year": 1833,
+    "title": "Birth of Alfred Nobel",
+    "desc": "Swedish inventor Alfred Nobel, who invented dynamite and founded the Nobel Prizes, was born in Stockholm.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "inventor"
+  },
+  {
+    "date": "10-21",
+    "year": 1879,
+    "title": "Edison's light bulb",
+    "desc": "Thomas Edison successfully tested the first practical incandescent light bulb, which burned for over 13 hours.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "10-22",
+    "year": 1797,
+    "title": "First parachute jump",
+    "desc": "Frenchman Andre-Jacques Garnerin made the first parachute descent from a balloon 3,200 feet above Paris.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "10-23",
+    "year": 2001,
+    "title": "First iPod released",
+    "desc": "Apple CEO Steve Jobs introduced the iPod, with '1,000 songs in your pocket', transforming the music industry.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "10-24",
+    "year": 1945,
+    "title": "United Nations founded",
+    "desc": "The United Nations officially came into existence, with the UN Charter ratified by the five permanent Security Council members.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "10-25",
+    "year": 1854,
+    "title": "Charge of the Light Brigade",
+    "desc": "A miscommunicated order sent British light cavalry into Russian artillery during the Crimean War's Battle of Balaclava.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "10-27",
+    "year": 1782,
+    "title": "Birth of Niccolo Paganini",
+    "desc": "Italian violin virtuoso Niccolo Paganini was born in Genoa.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "10-28",
+    "year": 1704,
+    "title": "Death of John Locke",
+    "desc": "English philosopher John Locke died at Oates, Essex, aged 72.",
+    "cat": "people",
+    "type": "death",
+    "pc": "philosopher"
+  },
+  {
+    "date": "10-28",
+    "year": 1886,
+    "title": "Statue of Liberty dedicated",
+    "desc": "The Statue of Liberty, a gift from France, was dedicated in New York Harbor by President Grover Cleveland.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "10-28",
+    "year": 1955,
+    "title": "Birth of Bill Gates",
+    "desc": "Microsoft co-founder and billionaire philanthropist Bill Gates was born in Seattle, Washington.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "entrepreneur"
+  },
+  {
+    "date": "10-29",
+    "year": 1929,
+    "title": "Black Tuesday",
+    "desc": "The U.S. stock market crashed, with the Dow Jones falling 12%, marking the start of the Great Depression.",
+    "cat": "economy",
+    "type": "event"
+  },
+  {
+    "date": "10-29",
+    "year": 1969,
+    "title": "First Internet message",
+    "desc": "The first message was sent over ARPANET, the predecessor of the Internet, from UCLA to Stanford.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "11-01",
+    "year": 1512,
+    "title": "Sistine Chapel ceiling",
+    "desc": "Michelangelo's painted ceiling of the Sistine Chapel was first shown to the public by Pope Julius II.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "11-05",
+    "year": 1605,
+    "title": "Gunpowder Plot foiled",
+    "desc": "Guy Fawkes was caught guarding explosives beneath the House of Lords in a failed Catholic plot to kill King James I.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "11-07",
+    "year": 1867,
+    "title": "Birth of Marie Curie",
+    "desc": "Polish-French physicist and chemist Marie Curie, the first woman to win a Nobel Prize, was born in Warsaw.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "scientist"
+  },
+  {
+    "date": "11-07",
+    "year": 1917,
+    "title": "October Revolution",
+    "desc": "Bolsheviks led by Vladimir Lenin seized power in Petrograd, leading to the creation of the Soviet Union.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "11-08",
+    "year": 1895,
+    "title": "X-rays discovered",
+    "desc": "German physicist Wilhelm Rontgen discovered X-rays while experimenting with cathode rays, revolutionizing medicine.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "11-09",
+    "year": 1989,
+    "title": "Fall of the Berlin Wall",
+    "desc": "East Germany unexpectedly opened its borders, and Berliners began tearing down the Wall that had divided the city for 28 years.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "11-11",
+    "year": 1918,
+    "title": "End of WWI",
+    "desc": "An armistice was signed at 11 a.m. in a railway carriage in Compiegne Forest, ending World War I.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "11-17",
+    "year": 1558,
+    "title": "Elizabeth I accession",
+    "desc": "Elizabeth I became Queen of England following the death of her half-sister Mary I, beginning the Elizabethan era.",
+    "cat": "people",
+    "type": "event",
+    "pc": "monarch"
+  },
+  {
+    "date": "11-19",
+    "year": 1863,
+    "title": "Gettysburg Address",
+    "desc": "President Abraham Lincoln delivered the Gettysburg Address at the dedication of the military cemetery at Gettysburg.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "11-20",
+    "year": 1945,
+    "title": "Nuremberg trials begin",
+    "desc": "The Nuremberg trials of 22 leading Nazi officials began in Nuremberg, Germany, for crimes against humanity.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "11-21",
+    "year": 1783,
+    "title": "First hot-air balloon manned flight",
+    "desc": "Jean-Francois Pilatre de Rozier and the Marquis d'Arlandes made the first manned free balloon flight in Paris.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "11-22",
+    "year": 1963,
+    "title": "Assassination of JFK",
+    "desc": "U.S. President John F. Kennedy was assassinated in Dallas, Texas, by Lee Harvey Oswald, shocking the world.",
+    "cat": "people",
+    "type": "death",
+    "pc": "politician"
+  },
+  {
+    "date": "11-24",
+    "year": 1859,
+    "title": "'Origin of Species' published",
+    "desc": "Charles Darwin's 'On the Origin of Species' was published, introducing the theory of evolution by natural selection.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "11-26",
+    "year": 1922,
+    "title": "Tutankhamun tomb opened",
+    "desc": "Howard Carter and Lord Carnarvon became the first people to enter Tutankhamun's tomb in over 3,000 years.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "11-26",
+    "year": 1997,
+    "title": "First Harry Potter published",
+    "desc": "J.K. Rowling's 'Harry Potter and the Philosopher's Stone' was published, launching the best-selling book series in history.",
+    "cat": "culture",
+    "type": "event"
+  },
+  {
+    "date": "11-30",
+    "year": 1835,
+    "title": "Birth of Mark Twain",
+    "desc": "American author Mark Twain, born Samuel Clemens, was born in Florida, Missouri.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "writer"
+  },
+  {
+    "date": "11-30",
+    "year": 1900,
+    "title": "Death of Oscar Wilde",
+    "desc": "Irish playwright and wit Oscar Wilde, author of 'The Importance of Being Earnest', died in Paris, aged 46.",
+    "cat": "people",
+    "type": "death",
+    "pc": "writer"
+  },
+  {
+    "date": "11-30",
+    "year": 2022,
+    "title": "ChatGPT launched",
+    "desc": "OpenAI launched ChatGPT, becoming the fastest-growing consumer application in history with 100M users in 2 months.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "12-01",
+    "year": 1955,
+    "title": "Rosa Parks arrested",
+    "desc": "Rosa Parks was arrested in Montgomery, Alabama, for refusing to give up her bus seat to a white man, sparking the bus boycott.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "12-03",
+    "year": 1967,
+    "title": "First heart transplant",
+    "desc": "South African surgeon Christiaan Barnard performed the world's first human-to-human heart transplant in Cape Town.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "12-05",
+    "year": 1791,
+    "title": "Death of Mozart",
+    "desc": "Austrian composer Wolfgang Amadeus Mozart died in Vienna, aged 35, leaving his Requiem unfinished.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "12-05",
+    "year": 1901,
+    "title": "Birth of Walt Disney",
+    "desc": "American animator and entrepreneur Walter Elias Disney, who founded the Disney empire, was born in Chicago.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "entrepreneur"
+  },
+  {
+    "date": "12-05",
+    "year": 2013,
+    "title": "Death of Nelson Mandela",
+    "desc": "Nelson Mandela died in Johannesburg, aged 95, after a life of fighting apartheid and uniting South Africa.",
+    "cat": "people",
+    "type": "death",
+    "pc": "politician"
+  },
+  {
+    "date": "12-07",
+    "year": 1941,
+    "title": "Pearl Harbor attacked",
+    "desc": "Japan attacked the U.S. naval base at Pearl Harbor, Hawaii, killing 2,400 Americans and bringing the U.S. into WWII.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "12-08",
+    "year": 1943,
+    "title": "Birth of Jim Morrison",
+    "desc": "Doors frontman Jim Morrison was born in Melbourne, Florida.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "musician"
+  },
+  {
+    "date": "12-08",
+    "year": 1980,
+    "title": "Death of John Lennon",
+    "desc": "Former Beatle John Lennon was shot and killed outside his New York apartment by Mark David Chapman.",
+    "cat": "people",
+    "type": "death",
+    "pc": "musician"
+  },
+  {
+    "date": "12-10",
+    "year": 1896,
+    "title": "Death of Alfred Nobel",
+    "desc": "Swedish inventor Alfred Nobel, who invented dynamite and established the Nobel Prizes, died in San Remo, Italy.",
+    "cat": "people",
+    "type": "death",
+    "pc": "inventor"
+  },
+  {
+    "date": "12-10",
+    "year": 1901,
+    "title": "First Nobel Prizes",
+    "desc": "The first Nobel Prizes were awarded in Stockholm and Oslo on the fifth anniversary of Alfred Nobel's death.",
+    "cat": "awards",
+    "type": "event"
+  },
+  {
+    "date": "12-10",
+    "year": 2015,
+    "title": "OpenAI founded",
+    "desc": "OpenAI was founded in San Francisco by Sam Altman, Elon Musk, Ilya Sutskever, and others, with a $1 billion pledge.",
+    "cat": "technology",
+    "type": "event"
+  },
+  {
+    "date": "12-11",
+    "year": 1936,
+    "title": "Edward VIII abdicates",
+    "desc": "King Edward VIII abdicated the British throne to marry American divorcee Wallis Simpson, ending a 325-day reign.",
+    "cat": "people",
+    "type": "event",
+    "pc": "monarch"
+  },
+  {
+    "date": "12-14",
+    "year": 1911,
+    "title": "South Pole reached",
+    "desc": "Norwegian explorer Roald Amundsen became the first person to reach the South Pole, beating Robert Scott's party.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "12-15",
+    "year": 1939,
+    "title": "'Gone with the Wind' premiere",
+    "desc": "The film 'Gone with the Wind' premiered in Atlanta, Georgia, becoming one of the highest-grossing films of all time.",
+    "cat": "entertainment",
+    "type": "event"
+  },
+  {
+    "date": "12-17",
+    "year": 1903,
+    "title": "First airplane flight",
+    "desc": "The Wright brothers made the first sustained, controlled, powered airplane flight at Kitty Hawk, North Carolina.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "12-18",
+    "year": 2022,
+    "title": "2022 World Cup final",
+    "desc": "Argentina won the FIFA World Cup, beating France on penalties in one of the greatest finals ever, with Messi's hat-trick.",
+    "cat": "sports",
+    "type": "event"
+  },
+  {
+    "date": "12-19",
+    "year": 1997,
+    "title": "'Titanic' released",
+    "desc": "James Cameron's 'Titanic' was released in U.S. theaters, becoming the first film to gross $1 billion.",
+    "cat": "entertainment",
+    "type": "event"
+  },
+  {
+    "date": "12-21",
+    "year": 1620,
+    "title": "Pilgrims land at Plymouth",
+    "desc": "The Mayflower Pilgrims landed at Plymouth Rock, Massachusetts, founding one of the first permanent European settlements in New England.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "12-21",
+    "year": 1937,
+    "title": "'Snow White' premieres",
+    "desc": "Walt Disney's 'Snow White and the Seven Dwarfs', the first full-length cel-animated feature film, premiered in Los Angeles.",
+    "cat": "entertainment",
+    "type": "event"
+  },
+  {
+    "date": "12-21",
+    "year": 1968,
+    "title": "Apollo 8 launches",
+    "desc": "Apollo 8 became the first crewed mission to leave Earth orbit and orbit the Moon, broadcasting images of 'Earthrise'.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "12-23",
+    "year": 1947,
+    "title": "Transistor invented",
+    "desc": "John Bardeen, Walter Brattain, and William Shockley at Bell Labs demonstrated the first working transistor.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "12-25",
+    "year": 1642,
+    "title": "Birth of Isaac Newton",
+    "desc": "English mathematician and physicist Sir Isaac Newton was born in Woolsthorpe, Lincolnshire (under the Julian calendar then in use in England).",
+    "cat": "people",
+    "type": "birth",
+    "pc": "scientist"
+  },
+  {
+    "date": "12-25",
+    "year": 1991,
+    "title": "Mikhail Gorbachev resigns",
+    "desc": "Soviet President Mikhail Gorbachev resigned, and the Soviet Union was formally dissolved the next day.",
+    "cat": "politics",
+    "type": "event"
+  },
+  {
+    "date": "12-25",
+    "year": 2021,
+    "title": "James Webb Telescope launches",
+    "desc": "The James Webb Space Telescope, successor to Hubble, was launched from French Guiana aboard an Ariane 5 rocket.",
+    "cat": "space",
+    "type": "event"
+  },
+  {
+    "date": "12-26",
+    "year": 2004,
+    "title": "Indian Ocean tsunami",
+    "desc": "A magnitude 9.1 earthquake off Sumatra triggered a tsunami that killed around 230,000 people across 14 countries.",
+    "cat": "disaster",
+    "type": "event"
+  },
+  {
+    "date": "12-27",
+    "year": 1571,
+    "title": "Birth of Johannes Kepler",
+    "desc": "German astronomer Johannes Kepler, who formulated the laws of planetary motion, was born in Weil der Stadt.",
+    "cat": "people",
+    "type": "birth",
+    "pc": "scientist"
+  },
+  {
+    "date": "12-27",
+    "year": 1831,
+    "title": "HMS Beagle departs",
+    "desc": "Charles Darwin set sail aboard HMS Beagle on a five-year voyage that would inspire his theory of evolution.",
+    "cat": "science",
+    "type": "event"
+  },
+  {
+    "date": "12-29",
+    "year": 2022,
+    "title": "Death of Pele",
+    "desc": "Brazilian football legend Pele died in Sao Paulo, aged 82, from colon cancer.",
+    "cat": "people",
+    "type": "death",
+    "pc": "athlete"
+  },
+  {
+    "date": "12-30",
+    "year": 1916,
+    "title": "Death of Grigori Rasputin",
+    "desc": "Russian mystic Grigori Rasputin was killed by Russian nobles in Petrograd after surviving poison and gunshot wounds.",
+    "cat": "people",
+    "type": "death",
+    "pc": "religious"
+  },
+  {
+    "date": "12-31",
+    "year": 1999,
+    "title": "Y2K panic",
+    "desc": "The world prepared for the Y2K computer bug as the year 2000 approached; major disruptions were largely averted.",
+    "cat": "technology",
+    "type": "event"
+  }
+]

@@ -1,0 +1,668 @@
+/* ============================================================
+   Chronos Today — app.js
+   Vanilla JS calendar with historical events & weather.
+   ============================================================ */
+
+'use strict';
+
+/* ============================================================
+   Category metadata
+   ============================================================ */
+const CATEGORIES = {
+  science:       { name: 'Science & Discovery', color: '#00d9ff' },
+  people:        { name: 'People (Births/Deaths)', color: '#fbbf24' },
+  technology:    { name: 'Technology & Companies', color: '#34d399' },
+  politics:      { name: 'Politics & War', color: '#f87171' },
+  entertainment: { name: 'Film & TV', color: '#f472b6' },
+  music:         { name: 'Music', color: '#a78bfa' },
+  sports:        { name: 'Sports', color: '#fb923c' },
+  space:         { name: 'Space & Astronomy', color: '#818cf8' },
+  disaster:      { name: 'Disasters', color: '#fb7185' },
+  economy:       { name: 'Economy', color: '#10b981' },
+  culture:       { name: 'Culture & Arts', color: '#facc15' },
+  awards:        { name: 'Awards', color: '#f59e0b' },
+};
+
+const PERSON_CATEGORIES = {
+  scientist: 'Scientist', inventor: 'Inventor', philosopher: 'Philosopher',
+  writer: 'Writer', musician: 'Musician', actor: 'Actor',
+  director: 'Director', comedian: 'Comedian', politician: 'Politician',
+  monarch: 'King/Queen', explorer: 'Explorer', athlete: 'Athlete',
+  military: 'Military Leader', artist: 'Artist', entrepreneur: 'Entrepreneur',
+  religious: 'Religious Figure', astronaut: 'Astronaut',
+  activist: 'Activist', psychologist: 'Psychologist',
+};
+
+/* ============================================================
+   State
+   ============================================================ */
+const state = {
+  calMode: 'greg',          // 'greg' | 'shamsi'
+  viewYear: null,           // currently displayed year
+  viewMonth: null,          // 0-11 (Gregorian) regardless of mode
+  selectedDate: null,       // {y, m, d} Gregorian
+  today: null,              // {y, m, d} Gregorian
+  events: [],               // all events
+  eventsByDate: new Map(),  // 'MM-DD' -> [events]
+  activeCats: new Set(),    // empty = all
+  weather: { lat: null, lon: null, name: null },
+};
+
+/* ============================================================
+   Jalali (Shamsi) calendar conversion — uses the browser's
+   built-in Intl.DateTimeFormat with the 'persian' calendar,
+   which handles all leap-year and equinox logic correctly.
+   ============================================================ */
+
+// Cache one formatter (created once, reused).
+const _jalaliFmt = new Intl.DateTimeFormat('en-u-ca-persian', {
+  year: 'numeric', month: 'numeric', day: 'numeric'
+});
+
+/**
+ * Convert a Gregorian date to Jalali (Shamsi).
+ * @param {number} gy  Gregorian year (e.g. 2026)
+ * @param {number} gm  Gregorian month, 1-12 (NOT 0-indexed)
+ * @param {number} gd  Gregorian day, 1-31
+ * @returns {{jy:number, jm:number, jd:number}}
+ */
+function toJalaali(gy, gm, gd) {
+  // gm is 1-12 here; JS Date wants 0-11.
+  const d = new Date(gy, gm - 1, gd);
+  const parts = _jalaliFmt.formatToParts(d);
+  let jy = 0, jm = 0, jd = 0;
+  for (const p of parts) {
+    if (p.type === 'year') jy = parseInt(p.value, 10);
+    else if (p.type === 'month') jm = parseInt(p.value, 10);
+    else if (p.type === 'day') jd = parseInt(p.value, 10);
+  }
+  return { jy, jm, jd };
+}
+
+const JALALI_MONTHS = [
+  'Farvardin', 'Ordibehesht', 'Khordad', 'Tir', 'Mordad', 'Shahrivar',
+  'Mehr', 'Aban', 'Azar', 'Dey', 'Bahman', 'Esfand'
+];
+
+/* ============================================================
+   Date helpers
+   ============================================================ */
+const GREG_MONTHS = ['January','February','March','April','May','June',
+  'July','August','September','October','November','December'];
+const GREG_WEEKDAYS = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const GREG_WEEKDAYS_FULL = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+function pad(n) { return String(n).padStart(2, '0'); }
+function dateKey(m, d) { return pad(m) + '-' + pad(d); }
+
+function gregDaysInMonth(y, m) {
+  return new Date(y, m + 1, 0).getDate();
+}
+
+function isSameDay(a, b) {
+  return a && b && a.y === b.y && a.m === b.m && a.d === b.d;
+}
+
+/* ============================================================
+   Load events
+   ============================================================ */
+async function loadEvents() {
+  try {
+    const res = await fetch('events.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    state.events = await res.json();
+  } catch (e) {
+    console.error('Failed to load events.json:', e);
+    state.events = [];
+  }
+
+  state.eventsByDate = new Map();
+  for (const ev of state.events) {
+    const key = ev.date; // 'MM-DD'
+    if (!state.eventsByDate.has(key)) state.eventsByDate.set(key, []);
+    state.eventsByDate.get(key).push(ev);
+  }
+  // sort each day's events by year ascending
+  for (const arr of state.eventsByDate.values()) {
+    arr.sort((a, b) => a.year - b.year);
+  }
+}
+
+/* ============================================================
+   Calendar rendering
+   ============================================================ */
+function renderWeekdays() {
+  const el = document.getElementById('weekdays');
+  el.innerHTML = '';
+  for (const w of GREG_WEEKDAYS) {
+    const d = document.createElement('div');
+    d.textContent = w;
+    el.appendChild(d);
+  }
+}
+
+function renderLegend() {
+  const el = document.getElementById('legend');
+  el.innerHTML = '';
+  for (const [key, meta] of Object.entries(CATEGORIES)) {
+    const item = document.createElement('span');
+    item.className = 'legend-item';
+    item.innerHTML =
+      `<span class="legend-dot" style="background:${meta.color}"></span>${meta.name}`;
+    el.appendChild(item);
+  }
+}
+
+function renderCalendar() {
+  const grid = document.getElementById('cal-grid');
+  grid.innerHTML = '';
+
+  const y = state.viewYear;
+  const m = state.viewMonth; // 0-11 Gregorian
+
+  // Title
+  if (state.calMode === 'greg') {
+    document.getElementById('month-label').textContent = GREG_MONTHS[m];
+    document.getElementById('year-label').textContent = y;
+  } else {
+    // For Shamsi display, find the Jalali month that covers most of this Gregorian month.
+    // Use the 15th of the Gregorian month as a reference.
+    const mid = toJalaali(y, m + 1, 15);
+    document.getElementById('month-label').textContent = JALALI_MONTHS[mid.jm - 1];
+    document.getElementById('year-label').textContent = mid.jy + ' AP';
+  }
+
+  // First weekday of Gregorian month
+  const first = new Date(y, m, 1);
+  const startWeekday = first.getDay(); // 0=Sun
+  const daysInMonth = gregDaysInMonth(y, m);
+  const prevMonthDays = gregDaysInMonth(y, m === 0 ? 11 : m - 1);
+
+  // 42 cells (6 weeks)
+  for (let i = 0; i < 42; i++) {
+    const cell = document.createElement('div');
+    cell.className = 'day-cell';
+    cell.setAttribute('role', 'gridcell');
+
+    let cellY, cellM, cellD;
+    let otherMonth = false;
+
+    if (i < startWeekday) {
+      // previous month
+      cellD = prevMonthDays - (startWeekday - 1 - i);
+      cellM = m === 0 ? 11 : m - 1;
+      cellY = m === 0 ? y - 1 : y;
+      otherMonth = true;
+    } else if (i >= startWeekday + daysInMonth) {
+      // next month
+      cellD = i - (startWeekday + daysInMonth) + 1;
+      cellM = m === 11 ? 0 : m + 1;
+      cellY = m === 11 ? y + 1 : y;
+      otherMonth = true;
+    } else {
+      cellD = i - startWeekday + 1;
+      cellM = m;
+      cellY = y;
+    }
+
+    const gregM1 = cellM + 1; // 1-12
+    const key = dateKey(gregM1, cellD);
+    const dayEvents = state.eventsByDate.get(key) || [];
+
+    if (otherMonth) cell.classList.add('other-month');
+    if (dayEvents.length > 0) cell.classList.add('has-events');
+    if (isSameDay({ y: cellY, m: cellM, d: cellD }, state.today)) cell.classList.add('today');
+    if (isSameDay({ y: cellY, m: cellM, d: cellD }, state.selectedDate)) cell.classList.add('selected');
+
+    // Day number (Gregorian or Shamsi)
+    const numEl = document.createElement('div');
+    numEl.className = 'day-num';
+    if (state.calMode === 'greg') {
+      numEl.textContent = cellD;
+    } else {
+      const j = toJalaali(cellY, cellM + 1, cellD);
+      numEl.textContent = j.jd;
+    }
+    cell.appendChild(numEl);
+
+    // Shamsi subtitle when in Gregorian mode (and vice versa)
+    const subEl = document.createElement('div');
+    subEl.className = 'day-sub';
+    if (state.calMode === 'greg') {
+      const j = toJalaali(cellY, cellM + 1, cellD);
+      subEl.textContent = JALALI_MONTHS[j.jm - 1].slice(0, 3) + ' ' + j.jd;
+    } else {
+      subEl.textContent = GREG_MONTHS[cellM].slice(0, 3) + ' ' + cellD;
+    }
+    cell.appendChild(subEl);
+
+    // Category dots (up to 5)
+    if (dayEvents.length > 0) {
+      const dotsEl = document.createElement('div');
+      dotsEl.className = 'day-dots';
+      const cats = new Set();
+      for (const ev of dayEvents) {
+        cats.add(ev.cat);
+        if (cats.size >= 5) break;
+      }
+      let i2 = 0;
+      for (const c of cats) {
+        const dot = document.createElement('span');
+        dot.className = 'day-dot';
+        dot.style.background = CATEGORIES[c] ? CATEGORIES[c].color : '#888';
+        dotsEl.appendChild(dot);
+        i2++;
+        if (i2 >= 5) break;
+      }
+      if (dayEvents.length > 5) {
+        const cnt = document.createElement('span');
+        cnt.className = 'day-count';
+        cnt.textContent = '+' + (dayEvents.length - 5);
+        dotsEl.appendChild(cnt);
+      }
+      cell.appendChild(dotsEl);
+    }
+
+    // Click handler
+    cell.addEventListener('click', () => {
+      state.selectedDate = { y: cellY, m: cellM, d: cellD };
+      // if clicked on other-month cell, navigate to that month
+      if (otherMonth) {
+        state.viewYear = cellY;
+        state.viewMonth = cellM;
+      }
+      renderCalendar();
+      renderSidebar();
+    });
+
+    grid.appendChild(cell);
+  }
+}
+
+/* ============================================================
+   Sidebar rendering
+   ============================================================ */
+function filterEvents(events) {
+  if (state.activeCats.size === 0) return events;
+  return events.filter(e => state.activeCats.has(e.cat));
+}
+
+function renderSidebar() {
+  // Day label
+  const sel = state.selectedDate;
+  const j = toJalaali(sel.y, sel.m + 1, sel.d);
+  const weekday = GREG_WEEKDAYS_FULL[new Date(sel.y, sel.m, sel.d).getDay()];
+
+  document.getElementById('day-label').textContent =
+    GREG_MONTHS[sel.m] + ' ' + sel.d + ', ' + sel.y;
+  document.getElementById('day-sub').textContent =
+    weekday + ' · ' + j.jd + ' ' + JALALI_MONTHS[j.jm - 1] + ' ' + j.jy + ' AP';
+
+  // Stats
+  const key = dateKey(sel.m + 1, sel.d);
+  const all = state.eventsByDate.get(key) || [];
+  const filtered = filterEvents(all);
+  const births = filtered.filter(e => e.type === 'birth').length;
+  const deaths = filtered.filter(e => e.type === 'death').length;
+  const events = filtered.filter(e => e.type === 'event').length;
+
+  const statsEl = document.getElementById('day-stats');
+  statsEl.innerHTML = '';
+  const rows = [
+    ['Total anniversaries', filtered.length],
+    ['Births', births],
+    ['Deaths', deaths],
+    ['Events', events],
+  ];
+  for (const [lbl, val] of rows) {
+    const row = document.createElement('div');
+    row.className = 'day-stat-row';
+    row.innerHTML = `<span class="lbl">${lbl}</span><span class="val">${val}</span>`;
+    statsEl.appendChild(row);
+  }
+
+  // Events count badge
+  document.getElementById('events-count').textContent = filtered.length;
+
+  // Events list
+  const listEl = document.getElementById('events-list');
+  listEl.innerHTML = '';
+
+  if (filtered.length === 0) {
+    const empty = document.createElement('li');
+    empty.className = 'events-empty';
+    empty.textContent = all.length === 0
+      ? 'No historical anniversaries for this day.'
+      : 'No events match your filters.';
+    listEl.appendChild(empty);
+    return;
+  }
+
+  // Sort: events by year descending (most recent first) feels more natural for "today in history"
+  const sorted = [...filtered].sort((a, b) => b.year - a.year);
+
+  for (const ev of sorted) {
+    const li = document.createElement('li');
+    li.className = 'event-item';
+    const color = CATEGORIES[ev.cat] ? CATEGORIES[ev.cat].color : '#888';
+    li.style.setProperty('--cat-color', color);
+
+    const yearLabel = ev.year < 0
+      ? Math.abs(ev.year) + ' BC'
+      : ev.year;
+
+    let typeBadge = '';
+    if (ev.type === 'birth') {
+      typeBadge = '<span class="event-type birth">Born</span>';
+    } else if (ev.type === 'death') {
+      typeBadge = '<span class="event-type death">Died</span>';
+    }
+
+    let pcLabel = '';
+    if (ev.pc && PERSON_CATEGORIES[ev.pc]) {
+      pcLabel = ' · ' + PERSON_CATEGORIES[ev.pc];
+    }
+
+    li.innerHTML =
+      `<div class="event-head">
+         <span class="event-year">${yearLabel}</span>
+         ${typeBadge}
+         <span class="event-cat">${CATEGORIES[ev.cat].name}${pcLabel}</span>
+       </div>
+       <div class="event-title">${escapeHtml(ev.title)}</div>
+       <div class="event-desc">${escapeHtml(ev.desc)}</div>`;
+    listEl.appendChild(li);
+  }
+}
+
+function escapeHtml(s) {
+  return String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+/* ============================================================
+   Filters
+   ============================================================ */
+function renderFilters() {
+  const el = document.getElementById('filter-list');
+  el.innerHTML = '';
+
+  // Count events per category
+  const counts = {};
+  for (const cat of Object.keys(CATEGORIES)) counts[cat] = 0;
+  for (const ev of state.events) {
+    if (counts[ev.cat] !== undefined) counts[ev.cat]++;
+  }
+
+  for (const [key, meta] of Object.entries(CATEGORIES)) {
+    const item = document.createElement('label');
+    item.className = 'filter-item' + (state.activeCats.has(key) ? ' checked' : '');
+    item.style.setProperty('--cat-color', meta.color);
+    item.innerHTML =
+      `<input type="checkbox" data-cat="${key}" ${state.activeCats.has(key) ? 'checked' : ''} />
+       <span class="filter-check"></span>
+       <span class="filter-color" style="background:${meta.color}"></span>
+       <span class="filter-name">${meta.name}</span>
+       <span class="filter-count">${counts[key]}</span>`;
+    const cb = item.querySelector('input');
+    cb.addEventListener('change', () => {
+      if (cb.checked) state.activeCats.add(key);
+      else state.activeCats.delete(key);
+      item.classList.toggle('checked', cb.checked);
+      renderCalendar();
+      renderSidebar();
+    });
+    el.appendChild(item);
+  }
+}
+
+function setupFilterAll() {
+  document.getElementById('filter-all').addEventListener('click', () => {
+    state.activeCats.clear();
+    renderFilters();
+    renderCalendar();
+    renderSidebar();
+  });
+}
+
+/* ============================================================
+   Weather (Open-Meteo)
+   ============================================================ */
+const WEATHER_CODES = {
+  0:  { icon: '☀️', label: 'Clear sky' },
+  1:  { icon: '🌤️', label: 'Mainly clear' },
+  2:  { icon: '⛅', label: 'Partly cloudy' },
+  3:  { icon: '☁️', label: 'Overcast' },
+  45: { icon: '🌫️', label: 'Fog' },
+  48: { icon: '🌫️', label: 'Rime fog' },
+  51: { icon: '🌦️', label: 'Light drizzle' },
+  53: { icon: '🌦️', label: 'Drizzle' },
+  55: { icon: '🌧️', label: 'Dense drizzle' },
+  56: { icon: '🌧️', label: 'Freezing drizzle' },
+  57: { icon: '🌧️', label: 'Freezing drizzle' },
+  61: { icon: '🌧️', label: 'Light rain' },
+  63: { icon: '🌧️', label: 'Rain' },
+  65: { icon: '🌧️', label: 'Heavy rain' },
+  66: { icon: '🌧️', label: 'Freezing rain' },
+  67: { icon: '🌧️', label: 'Freezing rain' },
+  71: { icon: '🌨️', label: 'Light snow' },
+  73: { icon: '🌨️', label: 'Snow' },
+  75: { icon: '❄️', label: 'Heavy snow' },
+  77: { icon: '🌨️', label: 'Snow grains' },
+  80: { icon: '🌧️', label: 'Rain showers' },
+  81: { icon: '🌧️', label: 'Rain showers' },
+  82: { icon: '⛈️', label: 'Violent showers' },
+  85: { icon: '🌨️', label: 'Snow showers' },
+  86: { icon: '❄️', label: 'Heavy snow showers' },
+  95: { icon: '⛈️', label: 'Thunderstorm' },
+  96: { icon: '⛈️', label: 'Thunderstorm w/ hail' },
+  99: { icon: '⛈️', label: 'Thunderstorm w/ hail' },
+};
+
+async function geocodeCity(query) {
+  const url = 'https://geocoding-api.open-meteo.com/v1/search?name=' +
+    encodeURIComponent(query) + '&count=5&language=en&format=json';
+  const res = await fetch(url);
+  if (!res.ok) throw new Error('Geocode failed');
+  const data = await res.json();
+  return data.results || [];
+}
+
+async function fetchWeather(lat, lon, name) {
+  const url = 'https://api.open-meteo.com/v1/forecast?latitude=' + lat +
+    '&longitude=' + lon +
+    '&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,wind_speed_10m,pressure_msl' +
+    '&timezone=auto';
+  const res = await fetch(url);
+  if (!res.ok) throw new Error('Weather fetch failed');
+  const data = await res.json();
+  return { data, name };
+}
+
+function renderWeather(payload) {
+  const body = document.getElementById('weather-body');
+  const locEl = document.getElementById('weather-loc');
+  locEl.textContent = payload.name;
+
+  const c = payload.data.current;
+  const w = WEATHER_CODES[c.weather_code] || { icon: '🌡️', label: 'Unknown' };
+
+  body.innerHTML = `
+    <div class="weather-main">
+      <div class="weather-icon">${w.icon}</div>
+      <div>
+        <div class="weather-temp">${Math.round(c.temperature_2m)}<span class="unit">°C</span></div>
+        <div class="weather-cond">${w.label}</div>
+      </div>
+    </div>
+    <div class="weather-stats">
+      <div class="weather-stat"><span class="lbl">Feels</span><span class="val">${Math.round(c.apparent_temperature)}°</span></div>
+      <div class="weather-stat"><span class="lbl">Humidity</span><span class="val">${c.relative_humidity_2m}%</span></div>
+      <div class="weather-stat"><span class="lbl">Wind</span><span class="val">${Math.round(c.wind_speed_10m)} km/h</span></div>
+      <div class="weather-stat"><span class="lbl">Pressure</span><span class="val">${Math.round(c.pressure_msl)} hPa</span></div>
+    </div>`;
+}
+
+function renderWeatherError(msg) {
+  const body = document.getElementById('weather-body');
+  body.innerHTML = `<div class="weather-error">${escapeHtml(msg)}</div>`;
+}
+
+async function loadWeatherFor(city) {
+  if (!city) return;
+  document.getElementById('weather-body').innerHTML =
+    '<div class="weather-loading">Loading weather…</div>';
+  try {
+    const results = await geocodeCity(city);
+    if (results.length === 0) {
+      renderWeatherError('City not found. Try another name.');
+      return;
+    }
+    const r = results[0];
+    const name = [r.name, r.country].filter(Boolean).join(', ');
+    const payload = await fetchWeather(r.latitude, r.longitude, name);
+    renderWeather(payload);
+  } catch (e) {
+    renderWeatherError('Could not load weather. Check your connection.');
+  }
+}
+
+/* ---- City autocomplete ---- */
+let suggestTimer = null;
+function setupCitySearch() {
+  const input = document.getElementById('city-input');
+  const list = document.getElementById('city-suggest');
+  const form = document.getElementById('weather-form');
+
+  input.addEventListener('input', () => {
+    clearTimeout(suggestTimer);
+    const q = input.value.trim();
+    if (q.length < 2) { list.hidden = true; return; }
+    suggestTimer = setTimeout(async () => {
+      try {
+        const results = await geocodeCity(q);
+        if (results.length === 0) { list.hidden = true; return; }
+        list.innerHTML = '';
+        for (const r of results.slice(0, 5)) {
+          const li = document.createElement('li');
+          li.setAttribute('role', 'option');
+          const country = [r.admin1, r.country].filter(Boolean).join(', ');
+          li.innerHTML =
+            `<span class="sug-name">${escapeHtml(r.name)}</span>` +
+            (country ? `<span class="sug-country">${escapeHtml(country)}</span>` : '');
+          li.addEventListener('click', () => {
+            input.value = r.name;
+            list.hidden = true;
+            const name = [r.name, r.country].filter(Boolean).join(', ');
+            loadWeatherDirect(r.latitude, r.longitude, name);
+          });
+          list.appendChild(li);
+        }
+        list.hidden = false;
+      } catch (e) { list.hidden = true; }
+    }, 300);
+  });
+
+  input.addEventListener('blur', () => {
+    setTimeout(() => { list.hidden = true; }, 200);
+  });
+  input.addEventListener('focus', () => {
+    if (list.children.length > 0) list.hidden = false;
+  });
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    list.hidden = true;
+    const q = input.value.trim();
+    if (q) loadWeatherFor(q);
+  });
+}
+
+async function loadWeatherDirect(lat, lon, name) {
+  document.getElementById('weather-body').innerHTML =
+    '<div class="weather-loading">Loading weather…</div>';
+  try {
+    const payload = await fetchWeather(lat, lon, name);
+    renderWeather(payload);
+  } catch (e) {
+    renderWeatherError('Could not load weather.');
+  }
+}
+
+/* ============================================================
+   Navigation
+   ============================================================ */
+function setupNav() {
+  document.getElementById('prev-month').addEventListener('click', () => {
+    if (state.viewMonth === 0) { state.viewMonth = 11; state.viewYear--; }
+    else state.viewMonth--;
+    renderCalendar();
+  });
+  document.getElementById('next-month').addEventListener('click', () => {
+    if (state.viewMonth === 11) { state.viewMonth = 0; state.viewYear++; }
+    else state.viewMonth++;
+    renderCalendar();
+  });
+  document.getElementById('today-btn').addEventListener('click', () => {
+    state.viewYear = state.today.y;
+    state.viewMonth = state.today.m;
+    state.selectedDate = { ...state.today };
+    renderCalendar();
+    renderSidebar();
+  });
+}
+
+function setupCalToggle() {
+  const gregBtn = document.getElementById('cal-greg');
+  const shamsiBtn = document.getElementById('cal-shamsi');
+  gregBtn.addEventListener('click', () => {
+    state.calMode = 'greg';
+    gregBtn.classList.add('active'); gregBtn.setAttribute('aria-pressed','true');
+    shamsiBtn.classList.remove('active'); shamsiBtn.setAttribute('aria-pressed','false');
+    document.body.classList.remove('shamsi-mode');
+    renderCalendar();
+    renderSidebar();
+  });
+  shamsiBtn.addEventListener('click', () => {
+    state.calMode = 'shamsi';
+    shamsiBtn.classList.add('active'); shamsiBtn.setAttribute('aria-pressed','true');
+    gregBtn.classList.remove('active'); gregBtn.setAttribute('aria-pressed','false');
+    document.body.classList.add('shamsi-mode');
+    renderCalendar();
+    renderSidebar();
+  });
+}
+
+/* ============================================================
+   Init
+   ============================================================ */
+async function init() {
+  // Today in Gregorian
+  const now = new Date();
+  state.today = { y: now.getFullYear(), m: now.getMonth(), d: now.getDate() };
+  state.selectedDate = { ...state.today };
+  state.viewYear = state.today.y;
+  state.viewMonth = state.today.m;
+
+  renderWeekdays();
+  renderLegend();
+
+  // Default weather city
+  const defaultCity = 'Tehran';
+  document.getElementById('city-input').value = defaultCity;
+
+  await loadEvents();
+  renderFilters();
+  setupFilterAll();
+  renderCalendar();
+  renderSidebar();
+  setupNav();
+  setupCalToggle();
+  setupCitySearch();
+
+  // Load default weather
+  loadWeatherFor(defaultCity);
+}
+
+document.addEventListener('DOMContentLoaded', init);

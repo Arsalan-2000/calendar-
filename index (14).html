@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chronos Today — Calendar of History & Weather</title>
+  <meta name="description" content="A historical calendar with births, deaths, inventions, discoveries, wars, sports, space, disasters, and live weather." />
+  <link rel="preconnect" href="https://api.open-meteo.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">◐</div>
+      <div>
+        <h1 class="brand-name">Chronos Today</h1>
+        <p class="brand-tag">Calendar of History, Anniversaries & Weather</p>
+      </div>
+    </div>
+
+    <div class="topbar-actions">
+      <div class="calendar-toggle">
+        <button id="cal-greg" class="cal-btn active" type="button" aria-pressed="true">Gregorian</button>
+        <button id="cal-shamsi" class="cal-btn" type="button" aria-pressed="false">Shamsi</button>
+      </div>
+
+      <form id="weather-form" class="weather-search" autocomplete="off">
+        <input id="city-input" type="text" placeholder="City for weather…" aria-label="City for weather" />
+        <button type="submit" aria-label="Search city">⌖</button>
+        <ul id="city-suggest" class="suggest-list" role="listbox" hidden></ul>
+      </form>
+    </div>
+  </header>
+
+  <!-- ===== Main layout ===== -->
+  <main class="layout">
+
+    <!-- ===== Calendar panel ===== -->
+    <section class="calendar-panel" aria-label="Calendar">
+      <div class="cal-header">
+        <button id="prev-month" class="nav-btn" type="button" aria-label="Previous month">‹</button>
+        <div class="cal-title">
+          <h2 id="month-label">Loading…</h2>
+          <span id="year-label"></span>
+        </div>
+        <button id="next-month" class="nav-btn" type="button" aria-label="Next month">›</button>
+        <button id="today-btn" class="today-btn" type="button">Today</button>
+      </div>
+
+      <div class="weekdays" id="weekdays"></div>
+      <div class="cal-grid" id="cal-grid" role="grid"></div>
+
+      <div class="legend" id="legend"></div>
+    </section>
+
+    <!-- ===== Sidebar: weather + events ===== -->
+    <aside class="sidebar" aria-label="Selected day">
+
+      <!-- Weather widget -->
+      <div class="card weather-card" id="weather-card">
+        <div class="card-head">
+          <h3>Weather</h3>
+          <span id="weather-loc" class="card-sub">—</span>
+        </div>
+        <div class="weather-body" id="weather-body">
+          <div class="weather-loading">Enter a city to load weather…</div>
+        </div>
+      </div>
+
+      <!-- Selected day -->
+      <div class="card day-card">
+        <div class="card-head">
+          <h3 id="day-label">Selected day</h3>
+          <span id="day-sub" class="card-sub"></span>
+        </div>
+        <div id="day-stats" class="day-stats"></div>
+      </div>
+
+      <!-- Filters -->
+      <div class="card filter-card">
+        <div class="card-head">
+          <h3>Categories</h3>
+          <button id="filter-all" class="link-btn" type="button">All</button>
+        </div>
+        <div id="filter-list" class="filter-list"></div>
+      </div>
+
+      <!-- Events list -->
+      <div class="card events-card">
+        <div class="card-head">
+          <h3>Events</h3>
+          <span id="events-count" class="card-sub">0</span>
+        </div>
+        <ul id="events-list" class="events-list"></ul>
+      </div>
+
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <p>Built with vanilla HTML, CSS &amp; JavaScript · Weather by
+      <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> ·
+      Deploy on GitHub Pages</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
